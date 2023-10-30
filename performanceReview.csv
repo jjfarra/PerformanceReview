@@ -1,0 +1,601 @@
+matricula,nombre_completo,carrera,anio,periodo,paralelo_actual,vez_tomada,nota_teorico,nota_practico,leccion_1,leccion_2,leccion_3,leccion_4,taller_1,taller_2,taller_3,taller_4,examen_parcial,examen_final,examen_mejoramiento,profesor
+202109600,Jessica Garcia,Arquitectura,2019,0S,10,3,4,24,51,27,51,56,3,70,78,50,68,68,14,Daniel Anderson
+202211096,Jason Baker,Historia,2020,0S,8,2,33,91,70,29,24,72,53,43,66,20,25,10,5,Mia Garcia
+201803622,Jessica Garcia,Arquitectura,2020,2S,6,1,42,32,39,96,91,33,97,28,30,30,83,88,54,Ava Lee
+201406174,Eric Ramirez,Licenciatura en Comunicacion,2021,0S,21,1,46,40,2,18,42,33,66,9,89,99,1,83,74,Olivia Taylor
+201610672,Emily Davis,Ingenieria Informatica,2021,2S,20,1,46,44,16,78,87,54,90,87,56,32,48,90,62,Mia Garcia
+202207813,Ryan Carter,Sociologia,2022,2S,31,3,3,78,34,74,69,34,1,80,56,34,90,74,22,Sophia Hernandez
+201412089,Jennifer Taylor,Medicina,2023,0S,8,1,69,61,13,65,31,3,46,41,78,52,55,57,58,John Smith
+201603537,Jennifer Taylor,Economia,2021,1S,1,2,92,22,95,62,70,59,21,13,83,63,55,86,14,Christopher Thomas
+202010128,Eric Ramirez,Arquitectura,2021,0S,1,3,45,76,76,96,97,49,29,51,97,93,85,1,93,Mia Garcia
+202306575,Eric Ramirez,Arquitectura,2021,1S,15,2,59,87,2,81,33,8,34,71,5,22,68,41,41,Daniel Anderson
+201810731,Margaret Mitchell,Medicina,2021,0S,21,2,89,43,13,70,14,50,12,44,94,95,35,85,75,Olivia Taylor
+202309010,Amy Hill,Biologia,2020,2S,24,2,22,31,63,6,19,19,20,97,39,65,67,48,79,Daniel Anderson
+202206695,Daniel Hernandez,Economia,2019,1S,19,1,46,34,38,74,62,35,16,46,96,94,55,44,61,Ava Lee
+202102985,Christopher Clark,Ingenieria Civil,2021,2S,20,2,95,12,44,13,52,92,16,82,100,60,1,80,36,William Walker
+201502275,William Thomas,Licenciatura en Administracion,2020,1S,7,2,42,85,22,60,63,19,90,24,20,63,50,97,79,Jessica Wilson
+202110170,David Wilson,Sociologia,2023,2S,18,2,98,97,100,10,75,6,2,3,59,9,97,91,69,Emily Johnson
+201501961,Kevin King,Medicina,2020,1S,2,2,33,81,34,4,21,5,18,75,63,50,60,79,89,Ava Lee
+202105812,Ryan Carter,Sociologia,2023,1S,15,2,75,74,18,90,17,32,100,45,93,35,63,33,41,Michael Davis
+201711519,William Thomas,Matematicas,2020,0S,15,1,37,60,41,58,20,48,5,63,53,77,34,82,83,Matthew Moore
+202212194,Emily Davis,Ingenieria Informatica,2019,0S,15,1,10,52,79,97,50,26,41,9,91,76,29,70,44,James Rodriguez
+202009039,Laura Lewis,Quimica,2021,0S,12,2,43,6,46,7,51,62,16,98,65,95,6,56,94,Mia Garcia
+202212102,Patricia Young,Ingenieria Civil,2020,1S,17,3,100,70,100,69,50,43,45,67,44,100,50,56,26,Michael Davis
+202009735,Andrew Lee,Economia,2019,2S,20,3,39,67,35,62,42,95,58,60,81,40,6,8,42,Andrew Lewis
+202204900,Jessica Garcia,Licenciatura en Comunicacion,2022,1S,18,3,28,52,76,5,47,81,62,88,81,86,55,21,75,Daniel Anderson
+202207910,Robert Martinez,Ingenieria Civil,2019,1S,9,3,77,58,83,83,9,9,86,60,95,6,87,74,13,Daniel Anderson
+201806874,Maria Thompson,Biologia,2021,0S,13,3,27,93,66,67,70,29,35,20,40,67,52,73,75,James Rodriguez
+202101732,Daniel Hernandez,Biologia,2023,0S,17,1,11,62,85,12,38,64,27,59,84,6,59,23,44,Daniel Anderson
+201709221,Eric Ramirez,Arquitectura,2021,0S,24,3,20,63,19,64,70,11,59,49,15,96,62,86,61,Ava Lee
+202106197,Michelle Green,Derecho,2021,0S,14,2,26,51,44,7,71,17,99,56,24,37,41,98,32,Mia Garcia
+202307392,Andrew Lee,Historia,2022,0S,27,2,23,39,31,72,58,62,35,5,51,72,79,95,20,William Walker
+201505643,William Thomas,Educacion Fisica,2020,1S,10,3,100,23,9,99,53,56,79,18,80,78,9,12,5,John Smith
+201712887,Christopher Clark,Arquitectura,2023,0S,10,1,2,78,87,68,28,74,57,92,58,99,86,99,46,Matthew Moore
+201810151,Sarah Anderson,Licenciatura en Administracion,2019,0S,16,3,34,64,51,18,86,16,91,67,34,69,100,40,13,Olivia Taylor
+201511822,Andrew Lee,Sociologia,2019,1S,24,1,68,53,40,11,14,53,75,19,43,27,66,20,28,Emily Johnson
+202209001,Brian Adams,Medicina,2021,1S,25,3,82,74,16,3,88,84,77,85,21,14,98,74,72,David Thompson
+201812729,David Wilson,Ciencias Politicas,2020,0S,1,3,42,32,4,19,51,21,19,77,44,51,86,87,5,Christopher Thomas
+202212434,Maria Thompson,Licenciatura en Comunicacion,2021,2S,10,1,55,31,52,12,73,12,19,34,40,52,64,53,1,Emily Johnson
+202204264,Robert Martinez,Licenciatura en Comunicacion,2022,2S,23,2,88,90,36,41,37,43,10,32,86,63,11,87,70,Jessica Wilson
+202305903,Amy Hill,Contabilidad,2021,2S,28,2,65,50,97,35,64,63,68,19,13,51,99,1,42,Michael Davis
+201910053,Joshua Hall,Derecho,2019,1S,13,1,24,89,65,33,17,82,75,69,22,20,44,67,47,Jessica Wilson
+201911332,Matthew Rodriguez,Antropologia,2021,1S,2,1,42,44,27,48,95,45,84,58,55,67,99,98,7,Daniel Anderson
+201502049,Matthew Rodriguez,Medicina,2022,0S,31,3,40,76,14,20,31,59,33,9,81,80,80,33,7,Michael Davis
+202205132,David Wilson,Licenciatura en Administracion,2019,1S,5,2,39,52,42,80,83,78,26,32,97,79,63,72,31,Sarah Martinez
+201502496,Karen Moore,Arquitectura,2022,0S,25,1,34,100,79,88,43,67,61,44,53,49,96,80,86,Sophia Hernandez
+202303145,Andrew Lee,Ciencias Politicas,2020,2S,16,3,23,59,70,47,56,19,49,94,37,71,36,33,86,Christopher Thomas
+201812475,Christopher Clark,Arquitectura,2023,0S,8,1,52,41,81,29,90,58,48,65,67,43,66,25,13,Andrew Lewis
+201410210,William Thomas,Contabilidad,2021,0S,29,3,41,6,76,77,73,54,91,33,85,35,41,13,7,Mia Garcia
+202202914,Ryan Carter,Ingenieria Informatica,2020,0S,11,3,36,72,75,13,100,46,23,71,35,47,12,65,43,Matthew Moore
+201611039,Andrew Lee,Matematicas,2023,1S,16,1,25,39,80,44,97,40,58,96,65,62,59,88,79,Matthew Moore
+201612683,Laura Lewis,Psicologia,2020,0S,19,3,44,2,80,1,93,70,48,62,63,17,87,59,46,Emma Clark
+201511863,John Doe,Psicologia,2019,1S,11,1,85,37,58,10,22,37,79,75,24,48,15,26,44,John Smith
+202012626,Daniel Hernandez,Arquitectura,2023,2S,30,2,6,5,92,96,65,76,3,75,8,18,14,33,83,James Rodriguez
+201411602,Michelle Green,Sociologia,2022,0S,4,3,95,8,59,59,46,52,31,43,24,1,74,54,46,Michael Davis
+202210067,Robert Martinez,Matematicas,2020,0S,20,2,14,87,10,20,4,24,19,40,42,8,50,93,59,Michael Davis
+201412266,Jason Baker,Ingenieria Industrial,2022,0S,31,3,88,16,67,62,52,71,37,77,76,26,94,92,77,Ava Lee
+202011614,Jennifer Taylor,Psicologia,2019,1S,25,2,48,81,86,56,75,22,83,39,50,39,33,87,36,James Rodriguez
+201604818,Robert Martinez,Historia,2020,1S,9,2,82,28,47,17,72,55,27,34,5,81,38,58,64,William Walker
+201710245,Linda Walker,Ingenieria Industrial,2019,0S,14,2,68,59,89,48,48,86,11,58,58,16,71,44,47,Ava Lee
+202203952,Sarah Anderson,Ingenieria Civil,2021,1S,28,2,13,51,13,52,57,45,79,53,9,29,67,38,10,Sarah Martinez
+202212962,Susan Turner,Derecho,2021,1S,2,2,18,92,48,76,17,81,54,75,47,94,4,60,54,Mia Garcia
+201512037,Ryan Carter,Ingenieria Industrial,2020,2S,1,2,17,81,29,70,89,64,38,48,8,73,81,38,24,John Smith
+202205832,Brian Adams,Biologia,2022,1S,9,2,13,34,57,12,51,58,92,11,10,43,97,29,36,Matthew Moore
+201906511,William Thomas,Arte,2021,0S,4,3,49,76,84,70,8,96,48,16,80,80,11,3,42,Sophia Hernandez
+201907178,David Wilson,Quimica,2020,0S,10,1,60,8,41,47,17,83,76,22,7,59,43,100,6,Jessica Wilson
+202001596,Michelle Green,Ciencias Politicas,2021,1S,28,1,16,73,78,14,60,40,17,74,82,82,100,56,14,Emma Clark
+202303565,Amy Hill,Historia,2020,0S,10,3,45,77,84,20,93,56,58,5,59,34,5,90,31,Ava Lee
+202002053,Christopher Clark,Antropologia,2019,1S,1,1,27,82,3,38,54,27,60,85,69,5,42,69,28,Daniel Anderson
+201610366,Emily Davis,Ciencias Politicas,2023,0S,22,2,73,80,70,70,7,81,58,54,80,31,46,43,78,Ava Lee
+201710846,Matthew Rodriguez,Sociologia,2021,2S,11,1,42,5,76,93,55,65,91,35,78,86,38,26,39,Mia Garcia
+202109265,Brian Adams,Ingenieria Informatica,2021,0S,6,3,66,70,5,2,50,68,71,51,64,95,21,34,74,Matthew Moore
+202312077,Robert Martinez,Psicologia,2022,0S,2,2,83,72,9,84,87,89,35,58,66,70,57,38,15,Olivia Taylor
+201508345,Jane Smith,Matematicas,2021,2S,15,1,64,51,69,14,3,37,8,38,44,26,44,41,87,William Walker
+202010590,Jennifer Taylor,Arte,2020,2S,22,1,44,32,23,60,79,53,4,53,75,64,71,13,19,William Walker
+202210103,Jessica Garcia,Arte,2023,2S,26,3,54,56,87,12,72,99,4,33,61,29,24,50,3,Olivia Taylor
+202209880,Linda Walker,Arquitectura,2021,0S,18,1,89,52,95,31,1,59,56,11,14,52,34,19,55,Sophia Hernandez
+202004737,William Thomas,Economia,2023,1S,2,3,33,5,99,77,52,48,77,37,96,61,90,39,40,Daniel Anderson
+201611318,Maria Thompson,Biologia,2022,2S,11,1,77,12,46,4,92,53,82,61,8,98,45,71,86,Jessica Wilson
+202210380,Christopher Clark,Ingenieria Civil,2021,0S,27,2,33,88,41,14,100,62,6,92,99,40,56,37,3,Jessica Wilson
+202111983,Kevin King,Arte,2023,0S,6,1,81,50,70,28,41,25,94,41,52,62,79,36,19,Matthew Moore
+202211911,Sarah Anderson,Sociologia,2023,1S,11,1,95,57,24,63,50,69,28,73,45,18,99,16,78,Daniel Anderson
+202311464,William Thomas,Educacion Fisica,2021,1S,20,1,39,76,76,61,47,81,72,48,77,60,90,34,24,Ava Lee
+202305617,Kevin King,Economia,2022,1S,22,2,43,81,90,40,6,30,78,55,27,33,82,21,84,Matthew Moore
+202311401,Brian Adams,Licenciatura en Comunicacion,2019,0S,5,3,49,83,20,3,61,58,82,65,34,58,7,14,64,David Thompson
+202305743,Susan Turner,Licenciatura en Administracion,2019,1S,15,1,74,21,36,90,77,18,59,31,85,3,31,57,1,Sophia Hernandez
+202111049,William Thomas,Arte,2021,1S,14,1,42,24,65,91,68,1,96,60,22,36,32,10,67,Matthew Moore
+201412209,William Thomas,Sociologia,2020,1S,21,3,48,18,20,78,23,56,51,35,25,96,9,36,49,David Thompson
+202110287,Laura Lewis,Arquitectura,2023,2S,23,2,77,74,4,24,95,43,28,74,64,11,71,26,65,Ava Lee
+201906786,Susan Turner,Psicologia,2022,2S,17,3,41,23,18,36,44,60,55,63,38,68,84,17,62,Emma Clark
+202210216,Eric Ramirez,Ingenieria Informatica,2021,2S,9,1,1,65,3,41,55,31,48,58,96,63,83,83,75,Sophia Hernandez
+201712022,Karen Moore,Quimica,2021,1S,12,1,63,53,70,3,16,1,21,22,6,63,49,74,54,Emily Johnson
+201901041,Daniel Hernandez,Biologia,2020,1S,1,2,16,61,19,86,17,17,34,87,93,94,90,65,32,Mia Garcia
+202303661,Michael Johnson,Medicina,2023,1S,11,3,79,90,23,45,3,100,9,47,8,98,18,93,57,Jessica Wilson
+202203460,Nancy Scott,Economia,2019,0S,30,3,20,61,2,50,13,96,42,56,23,79,63,41,87,Daniel Anderson
+201610184,Sarah Anderson,Contabilidad,2021,0S,12,3,47,82,99,26,37,89,41,36,1,23,76,28,47,Ava Lee
+202312111,Matthew Rodriguez,Derecho,2021,1S,9,2,82,98,76,74,52,95,36,37,13,17,35,84,69,Emma Clark
+201611911,Sarah Anderson,Contabilidad,2021,2S,7,3,42,83,93,95,89,42,2,57,81,76,45,59,53,David Thompson
+201903308,Margaret Mitchell,Ingenieria Industrial,2020,2S,15,1,9,90,39,77,60,9,10,11,18,53,49,6,20,Michael Davis
+202012417,Matthew Rodriguez,Arte,2023,2S,1,2,99,9,11,95,61,46,85,84,90,64,74,9,85,James Rodriguez
+202312159,Joshua Hall,Historia,2020,0S,5,1,2,6,44,43,80,37,28,21,25,96,72,88,56,Emma Clark
+202309264,Michelle Green,Ingenieria Industrial,2021,0S,25,2,35,65,29,88,94,35,7,87,64,85,57,16,55,Michael Davis
+202011591,Susan Turner,Contabilidad,2019,0S,21,2,84,28,14,57,6,69,35,30,42,55,11,30,34,Ava Lee
+202005564,Jessica Garcia,Educacion Fisica,2019,1S,30,1,50,58,3,14,68,80,66,73,37,67,53,12,64,Sophia Hernandez
+201611933,Eric Ramirez,Contabilidad,2023,2S,24,2,89,70,60,32,2,61,8,60,25,78,3,11,96,Jessica Wilson
+202110899,Emily Davis,Medicina,2022,1S,31,3,57,98,51,17,12,16,55,72,71,92,86,28,57,John Smith
+201706318,Margaret Mitchell,Economia,2022,1S,13,1,65,99,44,4,11,78,78,62,6,95,88,19,20,Emma Clark
+201405299,Emily Davis,Historia,2023,0S,24,2,44,54,55,58,12,76,67,4,82,95,72,46,36,William Walker
+202303456,David Wilson,Economia,2021,0S,7,2,84,33,36,22,66,9,96,1,65,65,10,28,91,David Thompson
+202010006,Nancy Scott,Ciencias Politicas,2022,1S,8,2,92,35,61,60,75,99,63,38,27,73,77,27,100,William Walker
+201411174,Christopher Clark,Licenciatura en Administracion,2021,0S,21,2,29,72,22,83,41,28,29,21,9,71,84,83,56,Matthew Moore
+201409648,Andrew Lee,Ingenieria Civil,2023,1S,12,1,93,20,1,99,100,60,94,13,48,10,4,32,7,Christopher Thomas
+201512373,Jane Smith,Medicina,2023,1S,31,2,35,82,100,83,24,60,73,94,64,24,76,71,29,William Walker
+202110620,Amy Hill,Quimica,2023,2S,19,1,55,42,32,4,8,22,41,80,61,76,73,8,53,Emily Johnson
+202302697,Brian Adams,Historia,2023,1S,26,3,47,57,25,14,86,63,97,27,3,24,42,64,17,Matthew Moore
+201610608,Michael Johnson,Biologia,2020,0S,6,3,36,40,29,20,35,4,99,60,70,91,68,93,56,Sophia Hernandez
+201812784,Laura Lewis,Antropologia,2021,2S,27,3,15,2,25,40,28,44,10,6,68,77,24,14,24,Sarah Martinez
+202104749,Nancy Scott,Biologia,2022,2S,29,3,41,19,17,93,73,87,91,85,72,47,5,67,39,Olivia Taylor
+202310753,Emily Davis,Licenciatura en Comunicacion,2021,1S,15,1,94,61,13,40,39,54,14,82,42,23,52,2,5,Emma Clark
+201810127,Karen Moore,Psicologia,2019,2S,29,3,3,62,21,87,54,44,84,99,87,82,96,81,75,Andrew Lewis
+201610399,Ryan Carter,Educacion Fisica,2022,1S,26,1,5,46,10,84,39,12,97,42,99,23,95,27,64,Emily Johnson
+202003294,Michael Johnson,Ingenieria Informatica,2022,0S,10,3,2,6,54,37,25,2,46,97,38,44,40,43,14,Matthew Moore
+202309481,Maria Thompson,Antropologia,2019,0S,29,3,76,25,50,55,28,7,12,28,78,87,72,81,15,David Thompson
+202310940,Robert Martinez,Historia,2021,2S,19,2,39,11,100,46,22,60,37,66,35,49,39,15,83,Sophia Hernandez
+202112630,Joshua Hall,Licenciatura en Comunicacion,2020,1S,2,1,97,53,81,69,81,81,52,38,60,51,34,14,66,Emily Johnson
+201410596,Emily Davis,Contabilidad,2019,0S,7,2,54,99,73,31,40,65,97,28,40,68,19,62,31,Christopher Thomas
+201702425,Jason Baker,Ingenieria Informatica,2019,1S,31,3,31,22,22,90,86,45,52,46,63,51,2,37,72,Mia Garcia
+201907541,Christopher Clark,Derecho,2022,1S,13,2,90,44,5,92,2,82,54,97,89,3,92,19,30,Matthew Moore
+201801161,Joshua Hall,Sociologia,2021,0S,3,2,85,43,82,88,86,60,41,55,93,39,60,94,8,Emily Johnson
+201411665,Emily Davis,Matematicas,2022,0S,18,2,78,28,96,17,4,45,69,56,24,57,51,13,5,Emily Johnson
+201711251,Linda Walker,Ciencias Politicas,2019,2S,12,2,22,23,89,8,2,81,64,6,61,3,6,16,69,James Rodriguez
+202212215,Kevin King,Ingenieria Informatica,2020,0S,23,3,32,92,29,96,90,50,54,49,29,58,62,9,82,Sarah Martinez
+202004923,Emily Davis,Ingenieria Informatica,2019,0S,19,1,75,66,10,43,83,54,11,7,2,17,74,56,99,John Smith
+201402142,Matthew Rodriguez,Economia,2023,1S,10,3,47,18,58,38,71,19,53,22,72,29,81,11,65,Matthew Moore
+201810238,Michelle Green,Ingenieria Informatica,2021,0S,9,3,42,66,48,76,68,25,28,23,88,47,57,71,7,Andrew Lewis
+202112253,Christopher Clark,Ciencias Politicas,2019,1S,21,2,55,3,68,71,98,37,70,76,74,67,89,63,88,Christopher Thomas
+202111159,Nancy Scott,Ciencias Politicas,2021,1S,6,1,81,11,14,23,38,74,85,35,96,37,35,14,56,Olivia Taylor
+202205251,William Thomas,Licenciatura en Comunicacion,2021,1S,29,2,32,83,33,41,97,14,27,76,72,49,70,71,78,Andrew Lewis
+202312904,Jason Baker,Matematicas,2022,1S,8,3,40,37,72,51,32,86,3,19,97,49,47,23,77,Christopher Thomas
+201408434,Jane Smith,Psicologia,2019,0S,11,1,10,94,99,33,37,1,54,46,72,84,58,58,3,David Thompson
+201911593,William Thomas,Ciencias Politicas,2023,2S,14,1,25,89,29,26,68,1,44,31,3,16,82,63,27,Mia Garcia
+201911161,Nancy Scott,Ingenieria Civil,2021,0S,14,3,96,62,4,93,13,56,2,71,65,2,83,78,10,Daniel Anderson
+202111654,Emily Davis,Ciencias Politicas,2021,2S,30,2,34,4,6,49,2,67,79,24,63,39,82,95,69,Christopher Thomas
+202012027,Robert Martinez,Sociologia,2020,0S,26,2,5,44,4,83,82,10,84,16,30,95,32,100,29,Ava Lee
+201412663,Eric Ramirez,Ciencias Politicas,2021,0S,19,3,12,89,100,11,16,48,60,13,95,25,48,62,65,Daniel Anderson
+202210326,Jennifer Taylor,Ingenieria Informatica,2020,2S,4,1,50,67,54,49,35,32,6,77,12,62,76,70,98,Emma Clark
+201411690,William Thomas,Arquitectura,2021,0S,6,2,79,87,26,63,88,27,19,29,19,36,19,16,75,Michael Davis
+202007428,Margaret Mitchell,Educacion Fisica,2019,1S,12,2,99,11,9,4,37,10,73,89,91,62,41,80,47,Jessica Wilson
+202010516,Joshua Hall,Historia,2022,1S,25,3,70,70,33,63,87,47,87,9,60,16,39,91,84,Emily Johnson
+202301923,Jessica Garcia,Medicina,2021,0S,25,2,5,76,8,42,25,78,70,43,39,39,83,75,92,Sophia Hernandez
+202312797,David Wilson,Antropologia,2021,0S,28,3,91,6,81,73,87,75,39,46,10,68,53,60,94,Christopher Thomas
+202110232,Kevin King,Ingenieria Informatica,2022,1S,31,2,45,98,37,11,21,23,46,100,67,64,84,62,61,Matthew Moore
+201711239,Matthew Rodriguez,Arquitectura,2021,0S,6,2,78,50,23,6,66,87,83,36,18,1,40,96,45,John Smith
+202010229,Sarah Anderson,Ciencias Politicas,2022,0S,3,3,51,29,79,97,46,86,69,26,45,27,3,59,45,Emma Clark
+202211637,Susan Turner,Ingenieria Civil,2023,2S,16,3,88,59,38,95,4,77,41,18,33,26,32,70,66,Sophia Hernandez
+201702090,Nancy Scott,Arte,2020,2S,2,1,70,76,5,87,32,15,13,54,92,98,67,22,50,Jessica Wilson
+202211091,Jennifer Taylor,Psicologia,2022,1S,12,2,93,12,73,48,45,58,97,9,78,17,11,84,80,Emily Johnson
+201603214,Jason Baker,Biologia,2019,0S,19,3,2,6,59,39,42,88,61,93,44,13,93,43,89,Jessica Wilson
+201612009,Emily Davis,Derecho,2023,2S,9,3,99,86,86,39,96,3,84,70,90,88,97,76,7,James Rodriguez
+202010294,Christopher Clark,Economia,2022,0S,10,3,99,32,2,94,9,89,76,58,78,18,6,10,81,Daniel Anderson
+202011629,Kevin King,Licenciatura en Comunicacion,2019,1S,5,1,77,86,46,79,39,40,91,48,64,84,34,71,20,Michael Davis
+202209449,William Thomas,Ingenieria Informatica,2020,1S,2,1,8,96,5,19,6,53,63,26,43,59,7,7,78,Andrew Lewis
+201608680,Laura Lewis,Historia,2023,2S,15,3,62,99,15,64,44,29,63,84,57,15,45,35,99,Sophia Hernandez
+202109010,Margaret Mitchell,Arte,2021,2S,24,2,50,67,32,39,70,8,16,65,8,54,100,44,93,Michael Davis
+201809121,Nancy Scott,Quimica,2023,0S,15,3,6,57,64,92,89,68,81,88,62,29,61,49,31,Emma Clark
+202010455,Margaret Mitchell,Licenciatura en Comunicacion,2019,1S,15,1,92,8,13,27,9,88,49,21,100,34,62,59,42,Michael Davis
+202011281,Emily Davis,Psicologia,2023,2S,7,2,52,39,45,50,81,34,27,76,14,96,76,41,61,Sarah Martinez
+202009620,Margaret Mitchell,Matematicas,2023,0S,21,2,72,42,68,5,35,61,71,83,74,30,45,44,67,Sophia Hernandez
+201503827,Eric Ramirez,Licenciatura en Comunicacion,2023,1S,15,3,21,16,77,30,35,63,73,1,26,64,8,60,86,Olivia Taylor
+202109987,Jennifer Taylor,Arte,2021,2S,30,1,22,64,3,85,93,13,46,84,61,25,43,29,56,Emma Clark
+201805589,Jason Baker,Ingenieria Informatica,2023,2S,3,2,77,80,51,18,15,37,71,81,43,20,15,24,76,James Rodriguez
+202108108,Maria Thompson,Medicina,2021,2S,5,2,60,77,42,41,67,82,39,88,57,86,73,85,5,Sarah Martinez
+201703791,Matthew Rodriguez,Matematicas,2020,0S,20,3,38,80,35,69,69,27,24,66,84,1,94,89,45,Mia Garcia
+201805010,Margaret Mitchell,Ciencias Politicas,2021,0S,23,3,69,73,92,58,55,86,97,45,48,46,47,93,42,David Thompson
+201805438,Jason Baker,Quimica,2019,2S,9,3,59,34,83,44,87,40,39,98,98,97,77,80,6,Michael Davis
+202305091,John Doe,Ingenieria Informatica,2020,2S,12,2,84,92,67,71,44,75,25,78,14,89,62,78,35,William Walker
+202005600,Jane Smith,Contabilidad,2019,2S,9,1,75,48,38,96,15,34,56,96,26,56,98,81,13,Ava Lee
+202211768,Eric Ramirez,Ingenieria Civil,2019,0S,2,2,69,46,33,66,42,29,18,45,94,62,15,91,83,Michael Davis
+201905425,Patricia Young,Licenciatura en Administracion,2019,2S,13,3,88,2,10,97,93,34,12,45,68,15,44,86,62,Matthew Moore
+201910428,Karen Moore,Educacion Fisica,2023,1S,19,2,61,69,24,68,36,15,44,89,26,58,35,22,94,Michael Davis
+202211960,Maria Thompson,Psicologia,2023,0S,28,3,14,94,66,28,23,1,55,42,91,53,76,13,99,Christopher Thomas
+201610261,Linda Walker,Ingenieria Industrial,2021,2S,3,3,25,81,56,29,10,71,31,84,35,18,74,17,80,Michael Davis
+201412378,Michael Johnson,Arte,2022,0S,18,2,15,13,28,23,5,84,26,69,8,48,57,13,43,Emily Johnson
+201610059,Sarah Anderson,Antropologia,2020,0S,8,1,57,11,50,92,24,81,87,65,48,26,58,38,12,Christopher Thomas
+202305141,Nancy Scott,Arte,2019,2S,27,2,99,1,86,16,10,96,42,24,93,77,78,83,39,Sarah Martinez
+202310800,Jennifer Taylor,Arte,2021,1S,3,3,27,82,49,47,79,25,30,31,69,56,65,2,63,David Thompson
+202309119,Laura Lewis,Educacion Fisica,2023,2S,17,1,49,35,85,29,76,38,58,64,89,30,77,40,51,William Walker
+202305970,Jessica Garcia,Ciencias Politicas,2021,2S,30,2,11,2,98,6,98,35,33,69,57,21,3,73,68,David Thompson
+202101005,John Doe,Biologia,2022,0S,7,2,91,58,1,14,36,50,77,18,37,55,16,54,40,Olivia Taylor
+201606922,Sarah Anderson,Matematicas,2020,0S,22,1,64,82,4,37,80,40,43,36,68,99,2,48,29,Ava Lee
+201405229,Robert Martinez,Ingenieria Civil,2022,0S,15,2,16,97,98,28,99,48,47,37,97,25,15,48,71,Jessica Wilson
+202003542,William Thomas,Biologia,2020,2S,21,2,6,61,94,4,39,53,86,64,33,44,87,54,64,Jessica Wilson
+201907540,Jennifer Taylor,Ciencias Politicas,2019,0S,13,3,91,85,76,81,14,60,12,69,60,28,7,14,40,Sarah Martinez
+201808712,Margaret Mitchell,Economia,2020,2S,18,2,64,23,19,34,79,25,63,62,85,31,29,6,90,Sophia Hernandez
+202201124,Sarah Anderson,Medicina,2023,2S,7,3,23,92,80,18,12,63,42,60,54,40,60,56,75,Matthew Moore
+201601532,Michael Johnson,Sociologia,2019,1S,2,3,66,76,87,41,36,59,47,84,47,86,79,86,9,Ava Lee
+201603178,Andrew Lee,Antropologia,2021,1S,8,1,78,73,9,92,84,64,72,15,2,17,83,76,62,Jessica Wilson
+202301760,John Doe,Historia,2021,2S,4,2,17,26,59,38,42,81,77,90,38,72,67,39,30,James Rodriguez
+202212409,Margaret Mitchell,Quimica,2021,0S,22,3,81,37,15,45,56,26,39,83,29,17,81,48,55,Jessica Wilson
+202010873,Jennifer Taylor,Educacion Fisica,2019,1S,16,1,8,45,64,96,29,6,1,49,60,16,34,5,94,Jessica Wilson
+201410579,Robert Martinez,Matematicas,2022,0S,19,1,14,79,14,98,11,27,93,91,47,60,37,30,42,Sophia Hernandez
+201901769,Kevin King,Contabilidad,2022,1S,30,2,3,77,3,81,39,63,7,41,100,5,97,63,18,Sophia Hernandez
+202110688,Amy Hill,Educacion Fisica,2022,1S,6,1,35,10,33,40,1,85,85,45,61,41,20,58,60,Matthew Moore
+202012716,Maria Thompson,Licenciatura en Administracion,2021,0S,22,2,54,36,25,9,57,81,6,70,72,23,2,42,25,Olivia Taylor
+202110502,Andrew Lee,Biologia,2022,2S,8,3,71,77,38,99,46,6,43,61,74,78,65,17,28,Matthew Moore
+202110234,Kevin King,Ingenieria Civil,2022,2S,11,3,35,5,51,41,72,28,34,34,9,77,41,87,45,Emma Clark
+202112849,Robert Martinez,Ingenieria Informatica,2019,0S,9,1,91,46,36,65,75,13,19,1,63,64,3,71,18,John Smith
+201608079,Emily Davis,Ingenieria Informatica,2020,2S,2,2,57,34,40,38,29,70,77,91,33,10,94,21,69,John Smith
+202110749,Patricia Young,Psicologia,2019,0S,15,3,27,95,68,66,83,32,75,97,94,72,84,60,75,Daniel Anderson
+201707738,Michelle Green,Matematicas,2020,2S,23,2,40,44,88,96,1,39,77,90,76,63,45,97,76,Mia Garcia
+201808480,Maria Thompson,Quimica,2023,1S,14,1,26,93,100,21,9,50,1,98,83,23,3,25,56,Olivia Taylor
+201612005,Susan Turner,Economia,2021,0S,30,2,98,96,29,70,6,26,16,35,7,49,65,100,74,William Walker
+201910200,David Wilson,Derecho,2022,1S,28,1,61,11,34,41,11,79,53,65,26,78,60,61,96,Ava Lee
+202011164,Eric Ramirez,Educacion Fisica,2019,2S,23,1,44,76,44,40,41,1,55,47,85,86,2,35,3,Christopher Thomas
+201707979,Linda Walker,Arte,2023,2S,11,3,23,8,64,56,22,1,29,87,10,41,53,86,84,David Thompson
+202108889,Amy Hill,Economia,2021,2S,6,1,99,77,80,37,50,45,85,95,43,38,5,18,56,Matthew Moore
+201412319,Maria Thompson,Educacion Fisica,2021,2S,31,1,97,73,17,16,76,33,88,84,98,24,37,97,12,William Walker
+202308069,Joshua Hall,Ingenieria Civil,2023,0S,16,3,47,61,99,78,53,76,43,99,93,6,85,92,94,Matthew Moore
+201607421,Jason Baker,Ingenieria Industrial,2022,2S,10,2,23,46,20,3,63,17,50,45,80,2,62,80,26,Christopher Thomas
+202011363,Andrew Lee,Economia,2023,2S,26,1,40,24,76,85,51,42,23,15,60,25,44,79,32,David Thompson
+202210651,Joshua Hall,Medicina,2023,0S,6,3,82,100,16,44,77,67,83,77,46,44,83,83,35,Michael Davis
+202001346,Jessica Garcia,Derecho,2019,2S,16,3,23,1,96,45,65,27,58,82,6,30,19,49,85,Daniel Anderson
+201510213,Linda Walker,Historia,2020,0S,12,1,49,18,23,24,80,49,5,47,86,12,6,4,39,James Rodriguez
+202011725,John Doe,Ciencias Politicas,2020,1S,15,2,29,15,46,79,5,83,85,47,84,75,20,3,23,Emily Johnson
+202010171,Matthew Rodriguez,Matematicas,2023,2S,2,2,96,37,99,98,100,18,67,68,67,54,52,9,51,William Walker
+202212992,Linda Walker,Ingenieria Industrial,2020,1S,30,1,48,89,51,6,31,24,67,63,18,94,73,58,71,Jessica Wilson
+202203183,Linda Walker,Arte,2020,2S,6,2,86,21,39,11,98,11,52,94,93,45,26,55,38,Andrew Lewis
+202112148,Brian Adams,Ingenieria Industrial,2022,1S,10,2,27,6,22,70,56,18,38,2,74,61,50,55,13,Christopher Thomas
+201601901,Laura Lewis,Licenciatura en Administracion,2023,2S,7,1,49,39,85,30,33,8,66,40,13,47,10,94,43,Daniel Anderson
+202112827,Daniel Hernandez,Matematicas,2021,1S,13,1,83,90,16,52,1,47,29,88,81,61,24,75,67,James Rodriguez
+202101009,Jason Baker,Licenciatura en Administracion,2022,1S,4,2,100,19,63,100,43,37,49,72,7,7,29,17,65,Christopher Thomas
+202110979,Robert Martinez,Ingenieria Industrial,2023,2S,3,2,37,73,61,85,54,39,29,56,30,35,1,78,89,Olivia Taylor
+202310801,Maria Thompson,Medicina,2020,0S,7,1,19,58,89,60,18,90,32,35,20,51,38,10,54,Olivia Taylor
+202106902,Andrew Lee,Quimica,2019,2S,30,2,78,76,88,31,42,55,27,5,49,2,2,41,1,Daniel Anderson
+201512529,Andrew Lee,Quimica,2019,1S,10,3,18,47,86,22,37,39,74,43,89,32,39,71,26,William Walker
+202002398,Eric Ramirez,Sociologia,2020,1S,22,2,45,84,5,76,48,24,34,52,78,18,48,59,23,David Thompson
+201511602,Ryan Carter,Matematicas,2019,1S,5,2,90,8,35,100,96,74,77,47,27,84,53,16,33,Matthew Moore
+201910331,John Doe,Ingenieria Informatica,2021,0S,1,2,39,2,86,98,56,53,60,59,48,37,30,80,60,Emily Johnson
+201406399,Jane Smith,Ciencias Politicas,2023,0S,4,1,88,72,6,25,11,27,5,88,62,3,10,90,25,Sophia Hernandez
+202107386,Joshua Hall,Psicologia,2021,1S,23,3,42,31,36,92,95,84,40,96,13,21,18,5,36,Daniel Anderson
+202212554,Nancy Scott,Derecho,2021,2S,1,3,50,73,95,92,28,49,14,8,54,2,74,56,98,Jessica Wilson
+202009910,Michelle Green,Educacion Fisica,2019,0S,10,3,98,76,68,87,54,84,96,20,91,51,80,21,63,Christopher Thomas
+201412300,Nancy Scott,Licenciatura en Administracion,2019,0S,10,2,39,9,25,79,84,81,14,27,78,85,14,5,71,James Rodriguez
+202312408,Laura Lewis,Ingenieria Civil,2022,0S,29,2,14,12,34,83,46,29,83,4,55,52,73,18,48,Jessica Wilson
+201810605,Nancy Scott,Ingenieria Civil,2021,2S,11,2,6,67,20,13,21,32,38,43,62,80,10,4,62,Emily Johnson
+202011726,Maria Thompson,Derecho,2020,1S,7,3,25,64,73,31,58,51,92,46,21,39,38,8,18,Matthew Moore
+201612939,Amy Hill,Biologia,2020,1S,3,1,59,66,80,39,28,25,7,89,52,36,68,76,43,Emily Johnson
+201906508,Jane Smith,Matematicas,2019,2S,4,2,55,72,15,39,83,84,84,94,7,25,37,84,64,Ava Lee
+202110399,Andrew Lee,Economia,2022,0S,9,2,79,35,95,62,66,89,77,99,24,75,87,33,64,James Rodriguez
+202104969,Jessica Garcia,Sociologia,2022,0S,29,2,36,54,8,2,39,91,32,98,9,65,62,23,82,Jessica Wilson
+202211456,Eric Ramirez,Arte,2020,2S,14,1,42,42,52,14,8,9,24,98,70,84,68,72,52,Sophia Hernandez
+201810130,Margaret Mitchell,Matematicas,2020,2S,7,3,81,98,2,2,53,25,31,94,38,59,74,40,61,Sophia Hernandez
+202109279,Kevin King,Licenciatura en Administracion,2021,1S,21,2,75,81,49,33,100,91,55,6,4,25,23,19,55,Emily Johnson
+202312009,Emily Davis,Derecho,2023,1S,9,3,10,30,79,91,44,7,52,39,65,97,64,63,68,Ava Lee
+201511054,Andrew Lee,Contabilidad,2019,1S,28,1,5,92,36,99,5,14,13,86,5,68,33,93,30,Michael Davis
+202008805,Jason Baker,Licenciatura en Comunicacion,2019,2S,21,2,76,19,9,93,33,79,35,84,32,79,57,94,5,John Smith
+201710763,Ryan Carter,Historia,2019,2S,11,2,34,77,45,6,82,4,26,70,27,16,70,4,83,Andrew Lewis
+201904579,Sarah Anderson,Licenciatura en Comunicacion,2022,1S,28,2,56,94,49,40,84,19,31,82,19,37,56,97,32,Emma Clark
+202012895,Nancy Scott,Psicologia,2019,1S,10,1,52,3,86,5,16,63,1,1,79,20,94,56,1,Mia Garcia
+202312890,Jane Smith,Ingenieria Civil,2021,0S,6,2,41,70,28,25,46,50,22,54,45,14,56,68,93,Ava Lee
+202307552,Patricia Young,Historia,2022,1S,12,1,19,65,71,55,81,94,14,54,8,13,65,49,35,Christopher Thomas
+202201185,David Wilson,Licenciatura en Administracion,2019,1S,30,3,70,73,93,8,72,64,52,91,1,80,29,64,91,Michael Davis
+201411464,David Wilson,Licenciatura en Administracion,2019,1S,14,2,27,54,71,82,43,34,12,48,84,40,41,2,59,Mia Garcia
+201507857,Jane Smith,Arquitectura,2021,0S,22,1,18,24,62,82,42,5,45,65,12,71,94,31,42,Ava Lee
+202008524,Sarah Anderson,Ciencias Politicas,2022,2S,5,3,90,61,49,46,75,65,32,12,9,66,62,63,25,Ava Lee
+201407398,Daniel Hernandez,Arquitectura,2023,2S,21,3,13,16,96,17,4,72,92,2,2,70,82,12,47,Michael Davis
+202312215,Patricia Young,Licenciatura en Comunicacion,2023,0S,29,2,97,33,72,42,84,48,13,49,60,91,81,23,1,Sophia Hernandez
+201711690,Ryan Carter,Matematicas,2022,0S,25,3,1,97,57,96,62,46,16,95,14,73,42,70,35,Andrew Lewis
+201701033,Kevin King,Ingenieria Informatica,2019,0S,17,2,45,11,55,71,1,66,64,36,98,49,56,100,46,Mia Garcia
+201511772,William Thomas,Economia,2021,1S,13,3,1,38,6,20,35,36,38,31,35,33,84,72,64,James Rodriguez
+201610905,Maria Thompson,Educacion Fisica,2019,1S,18,2,60,90,21,6,13,4,7,43,38,52,32,69,23,Mia Garcia
+201401073,Susan Turner,Ingenieria Informatica,2022,2S,11,1,65,74,49,57,6,60,12,54,47,45,11,87,70,Emily Johnson
+202312713,William Thomas,Medicina,2021,0S,20,3,78,19,58,82,8,66,54,56,33,85,61,41,50,Sophia Hernandez
+201604052,Maria Thompson,Medicina,2022,2S,8,2,4,35,8,91,78,36,95,88,93,19,42,85,67,Ava Lee
+201810741,Jason Baker,Historia,2023,2S,1,2,14,67,11,23,58,23,38,77,63,38,10,81,16,William Walker
+202112503,Michael Johnson,Educacion Fisica,2021,1S,30,1,7,37,42,13,91,38,83,41,48,15,44,68,99,Mia Garcia
+201512692,Robert Martinez,Derecho,2019,2S,29,1,86,90,4,51,27,11,52,28,98,7,96,22,44,James Rodriguez
+202212930,Ryan Carter,Psicologia,2020,2S,12,3,90,54,4,54,96,43,65,63,99,34,90,41,51,David Thompson
+201411986,Sarah Anderson,Medicina,2022,2S,16,2,84,83,95,25,72,64,99,8,50,42,30,8,89,Olivia Taylor
+201910237,Joshua Hall,Historia,2020,0S,5,2,89,71,53,14,88,99,87,89,7,13,25,83,95,Olivia Taylor
+201904281,Amy Hill,Matematicas,2022,1S,30,3,61,98,14,56,34,64,10,52,86,31,89,94,36,William Walker
+202212383,Joshua Hall,Economia,2021,2S,28,2,96,29,64,56,77,17,23,28,49,71,94,58,72,John Smith
+201802680,Susan Turner,Antropologia,2020,2S,13,2,88,25,79,7,43,51,77,7,84,72,63,84,96,John Smith
+202002251,Andrew Lee,Medicina,2020,0S,16,3,12,14,73,19,28,8,45,64,40,48,75,97,15,Daniel Anderson
+201410360,Eric Ramirez,Historia,2023,2S,8,3,64,49,9,23,41,50,86,42,10,57,96,68,91,Emma Clark
+201805012,Joshua Hall,Medicina,2023,2S,29,1,8,31,89,37,18,79,62,85,32,7,61,22,70,Matthew Moore
+202101370,Laura Lewis,Derecho,2019,1S,25,3,80,4,18,87,7,75,81,30,31,93,62,95,74,Sarah Martinez
+202311961,Linda Walker,Arte,2021,0S,17,2,43,83,63,85,69,31,76,69,16,83,50,91,81,Jessica Wilson
+202302621,Laura Lewis,Licenciatura en Comunicacion,2019,2S,7,1,24,70,11,51,94,21,73,55,31,78,12,87,98,Michael Davis
+201412180,William Thomas,Licenciatura en Comunicacion,2023,0S,19,3,66,62,71,88,25,69,63,83,32,49,25,63,45,Daniel Anderson
+202104881,Michelle Green,Derecho,2021,2S,23,1,14,7,92,75,23,71,13,47,20,29,12,12,75,William Walker
+202306411,Linda Walker,Economia,2022,2S,19,1,84,60,26,2,18,75,94,87,99,51,54,74,22,James Rodriguez
+201612102,Patricia Young,Arte,2021,1S,25,2,72,99,1,14,23,72,27,80,81,24,61,50,73,Sarah Martinez
+201805638,Amy Hill,Economia,2019,1S,18,3,44,81,83,31,20,35,83,6,53,55,85,80,15,Olivia Taylor
+201504791,Laura Lewis,Historia,2019,0S,14,1,12,50,53,52,49,46,95,36,47,19,28,6,10,Andrew Lewis
+202012987,Robert Martinez,Licenciatura en Administracion,2022,2S,9,2,75,37,73,64,72,10,67,88,17,72,90,64,10,William Walker
+202111274,Margaret Mitchell,Contabilidad,2019,1S,19,3,8,1,32,30,56,39,20,42,13,57,55,33,2,Jessica Wilson
+201610731,Margaret Mitchell,Historia,2020,0S,3,3,47,50,21,88,39,64,56,31,34,88,23,100,51,Emma Clark
+201911360,Jessica Garcia,Arquitectura,2019,0S,21,1,79,39,74,28,100,12,35,60,15,77,9,66,93,Daniel Anderson
+201509505,Maria Thompson,Ingenieria Industrial,2022,0S,28,1,68,44,46,41,91,80,32,72,85,96,66,71,46,Olivia Taylor
+201402173,Jessica Garcia,Biologia,2023,2S,26,1,94,67,46,24,71,94,90,23,56,29,41,2,83,Michael Davis
+201404212,Laura Lewis,Ingenieria Civil,2023,0S,4,1,72,98,24,75,72,68,92,15,100,71,93,37,68,Michael Davis
+202302915,Kevin King,Matematicas,2020,0S,13,1,10,14,49,27,3,44,12,44,6,13,15,10,24,John Smith
+202304260,Andrew Lee,Historia,2022,0S,29,1,74,34,10,51,47,45,7,68,95,32,1,1,100,Mia Garcia
+202310206,Patricia Young,Biologia,2023,1S,6,1,37,65,18,16,48,67,85,59,4,48,98,80,24,Michael Davis
+201710941,Amy Hill,Ingenieria Civil,2020,2S,4,3,55,19,39,22,19,3,73,84,89,21,98,22,52,Mia Garcia
+201603412,Jennifer Taylor,Economia,2019,1S,28,2,53,60,73,22,100,55,61,34,86,54,20,96,50,Jessica Wilson
+202205027,Sarah Anderson,Economia,2019,0S,6,2,79,92,29,61,35,80,83,29,86,17,18,27,61,Christopher Thomas
+201806204,Ryan Carter,Derecho,2021,0S,18,3,50,16,89,53,42,59,22,94,28,93,82,71,52,Emily Johnson
+202007776,John Doe,Quimica,2019,2S,9,1,72,3,48,46,60,69,98,22,88,44,11,28,90,Jessica Wilson
+201604665,Brian Adams,Arte,2022,0S,6,3,29,16,89,55,67,5,98,85,34,66,7,20,50,Matthew Moore
+202112770,Jennifer Taylor,Ingenieria Informatica,2023,0S,30,1,4,81,31,84,18,12,21,20,77,76,17,29,90,David Thompson
+202107692,Eric Ramirez,Derecho,2023,1S,29,1,66,63,45,87,47,40,39,53,14,82,32,6,8,Sarah Martinez
+201610122,Jennifer Taylor,Ingenieria Civil,2020,2S,17,3,41,28,9,86,3,30,29,84,10,44,28,59,82,Matthew Moore
+202206599,Eric Ramirez,Economia,2022,0S,31,1,7,54,84,60,41,35,20,24,41,92,43,64,42,Sarah Martinez
+201710678,Jane Smith,Psicologia,2022,2S,10,1,11,6,79,19,48,44,73,35,10,66,21,30,2,William Walker
+202006821,Margaret Mitchell,Antropologia,2020,0S,17,3,62,44,46,73,43,81,56,35,52,77,91,79,55,Jessica Wilson
+202108123,Margaret Mitchell,Quimica,2021,1S,17,3,46,49,54,28,88,81,42,11,99,59,20,55,5,Sophia Hernandez
+201403046,Margaret Mitchell,Derecho,2020,1S,4,1,94,42,19,35,13,91,58,76,91,10,56,85,26,Ava Lee
+201811502,Andrew Lee,Educacion Fisica,2019,1S,26,3,38,78,37,28,54,43,24,70,42,38,18,40,19,Matthew Moore
+201505337,Robert Martinez,Psicologia,2023,2S,29,2,21,48,35,78,98,98,66,66,21,3,14,85,84,Sophia Hernandez
+201406172,Brian Adams,Arte,2023,1S,9,1,82,57,17,13,48,88,80,12,31,81,28,79,62,Sarah Martinez
+202208250,Jane Smith,Ciencias Politicas,2023,2S,23,3,59,26,56,84,29,28,12,52,64,53,74,23,19,William Walker
+202312819,Laura Lewis,Ingenieria Civil,2020,0S,1,1,76,51,78,52,97,50,64,56,29,4,38,98,49,Michael Davis
+201412136,Laura Lewis,Antropologia,2019,0S,13,1,9,8,36,59,48,19,40,6,12,49,85,42,81,John Smith
+202006180,Jason Baker,Arquitectura,2022,2S,31,2,79,67,14,77,41,47,86,33,73,84,31,16,18,Sophia Hernandez
+202211053,David Wilson,Historia,2021,0S,20,3,84,82,4,92,45,7,29,21,18,40,52,93,21,Ava Lee
+201512112,Nancy Scott,Ingenieria Informatica,2020,0S,28,3,14,32,76,24,46,12,86,59,2,86,19,82,87,Sarah Martinez
+201411088,Daniel Hernandez,Educacion Fisica,2020,1S,20,2,18,95,33,64,15,94,23,69,33,61,28,81,44,Emma Clark
+202211946,Michael Johnson,Arquitectura,2023,2S,20,2,75,13,34,29,65,74,63,10,91,11,19,37,88,Sophia Hernandez
+201910102,Kevin King,Ingenieria Informatica,2019,1S,23,1,39,31,21,60,87,77,35,97,3,89,25,54,24,David Thompson
+201612424,Andrew Lee,Licenciatura en Administracion,2023,0S,6,3,70,75,4,12,13,65,53,72,24,90,73,92,13,Emma Clark
+201610262,Robert Martinez,Contabilidad,2023,1S,13,2,46,58,8,70,94,80,78,47,35,6,88,17,69,David Thompson
+202310938,Andrew Lee,Quimica,2022,0S,6,2,52,68,59,94,2,72,94,56,31,50,36,54,59,Andrew Lewis
+202111871,Michael Johnson,Derecho,2020,2S,14,2,47,20,6,37,78,66,91,28,84,47,20,31,14,Olivia Taylor
+202210744,Linda Walker,Contabilidad,2022,1S,21,3,87,4,48,5,86,47,3,48,91,63,60,30,36,Jessica Wilson
+202310076,Amy Hill,Licenciatura en Administracion,2022,0S,18,1,46,10,34,66,9,66,100,28,69,48,24,49,55,John Smith
+201611774,Maria Thompson,Quimica,2019,2S,4,1,12,88,77,43,32,73,97,11,18,38,22,77,26,Olivia Taylor
+202012991,Kevin King,Economia,2023,1S,30,3,77,81,2,37,98,5,87,7,56,42,91,29,65,Christopher Thomas
+202110196,Michelle Green,Psicologia,2021,0S,3,3,70,25,72,10,54,97,19,41,12,92,63,7,7,Mia Garcia
+202311130,Emily Davis,Licenciatura en Administracion,2020,1S,3,1,39,49,40,45,86,36,86,2,76,75,11,42,45,Emily Johnson
+201902046,Amy Hill,Derecho,2021,2S,4,2,52,94,45,9,25,95,51,3,55,65,28,37,81,James Rodriguez
+201905719,Matthew Rodriguez,Arte,2022,2S,30,2,27,17,42,14,78,91,42,99,68,42,51,55,97,William Walker
+202212539,Matthew Rodriguez,Sociologia,2022,2S,26,3,69,72,88,86,4,80,70,11,94,97,6,2,22,Jessica Wilson
+201908962,Michelle Green,Ingenieria Informatica,2022,0S,2,1,18,14,17,46,89,40,67,63,52,53,48,79,17,John Smith
+201507629,William Thomas,Contabilidad,2021,2S,21,3,28,66,20,20,27,23,54,47,89,3,1,92,18,Andrew Lewis
+201812331,David Wilson,Contabilidad,2020,2S,22,1,92,98,69,75,25,49,47,87,17,28,10,11,17,Mia Garcia
+202112902,John Doe,Licenciatura en Administracion,2022,2S,12,3,91,37,78,34,40,38,40,19,63,83,87,67,75,Emily Johnson
+201510675,Michael Johnson,Historia,2022,1S,3,1,48,75,85,41,32,25,83,92,77,64,46,86,58,John Smith
+201512185,Margaret Mitchell,Derecho,2021,2S,22,1,9,54,57,76,86,39,52,72,47,10,51,11,39,David Thompson
+201810832,Linda Walker,Medicina,2023,2S,16,1,31,21,100,51,92,76,45,88,61,28,82,58,47,William Walker
+201608068,Linda Walker,Arquitectura,2022,1S,17,1,95,28,97,68,15,53,100,79,87,61,75,89,60,Sophia Hernandez
+202110512,Nancy Scott,Economia,2021,0S,7,1,74,18,55,50,69,43,27,98,100,20,97,12,56,Matthew Moore
+202312838,Sarah Anderson,Sociologia,2021,0S,19,3,30,96,23,70,50,26,73,10,18,90,53,55,70,Andrew Lewis
+202202554,Laura Lewis,Historia,2022,1S,4,1,82,12,82,38,66,83,24,3,27,49,44,95,44,Sophia Hernandez
+202211141,Maria Thompson,Ingenieria Civil,2022,0S,18,2,31,5,57,78,82,13,74,25,19,33,7,50,4,Ava Lee
+201905710,John Doe,Historia,2019,0S,9,1,21,53,21,48,18,78,83,65,98,84,52,52,90,Emma Clark
+201811777,Ryan Carter,Licenciatura en Administracion,2019,1S,26,1,54,83,18,81,29,46,80,75,35,80,75,94,7,Andrew Lewis
+201804336,Jane Smith,Derecho,2021,2S,6,1,82,65,10,84,79,71,77,54,68,100,35,4,100,Mia Garcia
+201903601,Susan Turner,Licenciatura en Administracion,2022,0S,29,2,71,10,38,89,99,92,10,97,79,49,54,97,16,Emma Clark
+201710170,Brian Adams,Matematicas,2023,0S,24,1,54,13,68,57,95,9,49,3,40,22,94,1,95,Mia Garcia
+202012517,Susan Turner,Quimica,2022,0S,2,2,41,80,41,77,34,1,21,5,37,75,24,3,94,Ava Lee
+201712719,Andrew Lee,Historia,2020,0S,16,1,95,18,39,51,73,77,70,96,5,47,96,17,12,John Smith
+202007857,Kevin King,Antropologia,2019,0S,1,3,6,74,89,52,2,13,18,28,15,88,25,15,70,Sarah Martinez
+201611845,Matthew Rodriguez,Contabilidad,2019,0S,31,3,51,82,38,60,8,37,86,14,85,82,54,22,90,Daniel Anderson
+202111259,Emily Davis,Educacion Fisica,2023,0S,4,1,95,29,19,82,65,51,20,53,28,67,65,2,47,Daniel Anderson
+201702784,Daniel Hernandez,Arte,2022,2S,21,1,13,40,93,96,12,15,24,31,52,42,15,46,45,Ava Lee
+202310653,Daniel Hernandez,Educacion Fisica,2023,2S,18,3,64,15,81,24,16,26,55,94,93,29,14,88,75,Emily Johnson
+202209950,Andrew Lee,Ingenieria Civil,2023,0S,15,1,36,37,91,43,21,39,32,49,81,37,3,42,63,Michael Davis
+201702400,John Doe,Sociologia,2020,1S,23,3,60,65,45,39,38,46,68,72,47,55,27,97,78,Jessica Wilson
+202104302,Ryan Carter,Antropologia,2023,1S,16,3,7,43,78,39,73,68,99,40,77,12,49,78,71,Sophia Hernandez
+201911283,Susan Turner,Educacion Fisica,2023,2S,2,1,13,12,21,98,87,68,37,31,14,77,71,11,89,Andrew Lewis
+202201780,Matthew Rodriguez,Contabilidad,2022,1S,24,3,81,58,33,52,8,60,94,48,18,87,92,2,88,Andrew Lewis
+202112231,Maria Thompson,Contabilidad,2021,2S,2,3,38,41,45,30,40,9,47,99,87,86,87,71,1,Daniel Anderson
+202107992,Kevin King,Historia,2019,1S,6,1,85,86,38,31,1,8,31,4,45,75,45,83,49,William Walker
+202108334,Jane Smith,Ingenieria Civil,2020,2S,25,1,49,63,4,33,18,80,28,76,91,23,4,95,74,Olivia Taylor
+202309256,Patricia Young,Psicologia,2021,1S,21,3,61,70,73,49,15,38,9,59,16,28,84,68,1,Christopher Thomas
+201412439,Nancy Scott,Derecho,2022,1S,17,1,87,10,72,12,52,85,14,7,1,86,25,25,67,Christopher Thomas
+202209637,Kevin King,Licenciatura en Administracion,2020,2S,31,2,45,38,21,21,77,43,64,48,97,65,23,85,1,Mia Garcia
+202204754,Kevin King,Medicina,2023,2S,12,1,77,20,63,70,28,30,85,39,98,77,97,87,73,Mia Garcia
+202311393,John Doe,Licenciatura en Comunicacion,2020,1S,12,2,21,63,18,72,43,58,68,100,12,55,90,57,85,Mia Garcia
+202011257,Amy Hill,Arte,2023,2S,1,1,92,86,22,26,28,49,32,55,32,91,88,88,16,Christopher Thomas
+201504597,Susan Turner,Psicologia,2022,1S,8,1,1,91,71,43,79,25,26,86,88,65,71,54,84,Andrew Lewis
+202205407,Matthew Rodriguez,Economia,2020,2S,11,3,19,14,54,61,5,4,47,24,23,45,74,81,63,Michael Davis
+201712768,Maria Thompson,Arte,2023,0S,16,3,12,72,21,23,17,14,5,14,39,52,100,95,43,Ava Lee
+202311696,Jane Smith,Antropologia,2023,1S,4,3,83,53,80,55,34,52,84,82,61,5,84,48,36,Matthew Moore
+201512732,Laura Lewis,Ingenieria Industrial,2022,1S,28,3,16,37,1,28,15,4,66,16,59,90,2,9,96,Sophia Hernandez
+202006201,Amy Hill,Ingenieria Informatica,2023,0S,20,3,39,85,74,65,12,47,35,95,47,58,21,6,88,Matthew Moore
+202107298,Joshua Hall,Antropologia,2020,2S,6,3,90,71,12,82,82,63,10,96,80,40,39,86,52,James Rodriguez
+201811857,Jessica Garcia,Historia,2021,2S,8,1,47,21,73,51,59,1,67,26,44,42,47,61,31,Daniel Anderson
+202108485,David Wilson,Ciencias Politicas,2020,1S,20,1,31,72,80,7,51,66,10,51,93,87,80,53,97,Ava Lee
+202212280,Jessica Garcia,Ingenieria Informatica,2023,1S,17,2,28,41,94,9,21,39,50,13,91,76,13,90,46,Matthew Moore
+201901798,Kevin King,Educacion Fisica,2020,1S,19,1,64,59,12,31,45,20,51,42,69,16,75,95,36,Emma Clark
+201712110,Andrew Lee,Economia,2019,1S,25,1,43,15,85,63,6,41,16,80,54,3,55,66,79,Daniel Anderson
+201511742,Daniel Hernandez,Ingenieria Industrial,2020,0S,4,3,96,70,80,11,10,8,81,34,86,67,35,59,99,Emily Johnson
+201912197,Emily Davis,Arquitectura,2023,2S,31,3,44,88,95,74,47,27,51,99,47,37,25,36,32,William Walker
+202203534,Maria Thompson,Contabilidad,2019,2S,23,1,15,89,86,25,22,24,6,93,93,31,47,69,9,James Rodriguez
+201701200,Ryan Carter,Historia,2022,1S,16,3,97,27,12,20,63,92,70,13,60,34,37,52,90,Daniel Anderson
+202206509,Matthew Rodriguez,Biologia,2022,0S,29,3,90,71,6,70,4,77,25,54,24,20,52,35,47,William Walker
+201810466,Eric Ramirez,Antropologia,2020,0S,25,1,29,84,85,59,73,48,15,76,15,23,75,41,71,Andrew Lewis
+202210037,David Wilson,Antropologia,2023,1S,26,3,4,56,41,24,83,21,89,54,64,55,39,29,90,Jessica Wilson
+201912345,Robert Martinez,Quimica,2019,1S,13,1,29,82,34,95,96,16,8,39,90,94,99,88,31,James Rodriguez
+202010535,Laura Lewis,Biologia,2022,2S,28,2,64,5,47,77,24,33,18,25,75,14,38,27,81,James Rodriguez
+202110414,Jessica Garcia,Historia,2020,0S,19,1,70,26,93,11,81,80,23,98,100,67,42,12,23,Michael Davis
+201702042,David Wilson,Quimica,2023,2S,5,2,75,1,15,11,91,66,47,53,39,94,68,9,60,Andrew Lewis
+202103288,Michael Johnson,Contabilidad,2023,0S,18,3,37,7,92,40,83,73,30,56,15,4,69,45,100,Sarah Martinez
+202309668,Laura Lewis,Ciencias Politicas,2023,2S,22,1,64,12,46,14,4,6,25,21,47,5,79,84,62,David Thompson
+201908338,Joshua Hall,Historia,2022,1S,22,3,74,36,18,7,36,22,68,88,86,67,90,39,80,John Smith
+202011687,Eric Ramirez,Ingenieria Industrial,2022,2S,5,3,79,50,30,98,66,67,81,9,65,38,61,99,30,Matthew Moore
+202202896,Amy Hill,Ingenieria Industrial,2020,0S,14,3,77,81,77,21,92,24,25,83,74,34,62,69,51,David Thompson
+202311800,John Doe,Ingenieria Informatica,2019,2S,14,3,46,77,97,80,96,54,80,64,70,81,16,22,4,Ava Lee
+202205568,Eric Ramirez,Ciencias Politicas,2019,0S,6,2,31,2,100,3,49,5,10,58,57,86,27,95,14,Christopher Thomas
+201612864,Ryan Carter,Ingenieria Industrial,2023,0S,25,1,22,39,66,27,39,88,8,47,49,96,61,57,92,Daniel Anderson
+201803406,Jennifer Taylor,Ingenieria Informatica,2019,0S,4,2,54,58,19,96,39,20,41,50,25,44,83,11,4,Jessica Wilson
+201703563,Jane Smith,Licenciatura en Administracion,2022,0S,31,1,61,29,34,7,12,8,36,37,32,50,90,20,92,Emily Johnson
+202112460,Karen Moore,Licenciatura en Administracion,2022,2S,23,2,38,39,61,21,83,17,54,96,63,84,66,30,83,Andrew Lewis
+202211165,Joshua Hall,Matematicas,2021,0S,15,2,29,21,65,24,42,2,38,23,54,31,68,94,38,John Smith
+201803355,Patricia Young,Ciencias Politicas,2023,2S,1,3,17,62,54,49,60,7,36,40,10,21,82,49,17,James Rodriguez
+202307150,Kevin King,Sociologia,2022,0S,27,3,29,75,71,5,52,88,56,6,3,16,40,70,7,Sophia Hernandez
+202011113,Laura Lewis,Biologia,2022,1S,26,2,8,25,29,43,63,2,51,51,100,31,98,3,47,Ava Lee
+202306858,Michael Johnson,Psicologia,2023,1S,2,2,51,2,61,60,50,74,3,94,69,66,63,43,44,Jessica Wilson
+201509864,Maria Thompson,Arte,2021,0S,4,3,95,24,88,49,47,75,35,11,88,64,43,64,6,Daniel Anderson
+201808022,Margaret Mitchell,Biologia,2021,0S,3,2,77,67,57,83,83,27,25,27,98,82,69,87,30,Emma Clark
+201902013,Emily Davis,Arte,2023,2S,6,1,55,73,87,14,16,37,44,19,55,88,99,25,4,Mia Garcia
+201603002,Jason Baker,Ciencias Politicas,2019,1S,16,1,35,39,48,28,38,26,71,95,73,11,83,83,9,Christopher Thomas
+202310157,Kevin King,Sociologia,2019,0S,6,1,84,21,43,47,6,71,61,64,55,27,82,26,53,Sarah Martinez
+201512372,Matthew Rodriguez,Biologia,2020,0S,26,2,52,8,36,12,49,98,65,71,62,70,42,60,60,John Smith
+201607955,David Wilson,Sociologia,2020,2S,23,2,92,97,3,46,43,97,4,67,3,12,28,22,36,Ava Lee
+201811774,Jennifer Taylor,Derecho,2021,2S,13,3,76,86,26,70,7,77,87,92,92,77,36,80,16,Mia Garcia
+201504161,Sarah Anderson,Matematicas,2019,1S,30,2,78,4,85,65,35,49,49,48,48,86,14,82,29,John Smith
+201804298,John Doe,Ingenieria Civil,2020,2S,15,2,8,50,95,47,9,66,70,55,12,20,8,68,18,Christopher Thomas
+202111718,Margaret Mitchell,Licenciatura en Administracion,2023,2S,22,3,27,31,40,6,86,24,78,29,18,22,86,5,27,Mia Garcia
+202206866,Jane Smith,Ingenieria Industrial,2022,1S,11,2,33,9,35,39,84,4,45,48,29,2,3,33,99,Emma Clark
+202205180,John Doe,Psicologia,2020,0S,15,1,7,23,26,65,65,62,13,58,88,44,72,52,61,Jessica Wilson
+201601357,Jennifer Taylor,Derecho,2023,0S,12,1,9,33,25,25,53,49,83,91,24,85,44,46,8,Sarah Martinez
+201704482,Emily Davis,Psicologia,2020,0S,11,2,8,64,20,76,81,60,87,95,13,33,25,41,1,James Rodriguez
+201405190,Daniel Hernandez,Medicina,2019,0S,12,3,88,96,63,57,99,70,82,9,49,36,75,62,99,Emily Johnson
+201510210,Michelle Green,Licenciatura en Administracion,2023,1S,5,2,43,49,20,64,49,20,17,24,67,51,81,100,24,David Thompson
+201508145,Linda Walker,Ingenieria Industrial,2020,1S,21,2,94,1,84,57,24,71,84,83,74,26,52,34,3,Ava Lee
+202202067,Joshua Hall,Antropologia,2021,0S,4,2,67,49,6,35,77,20,14,81,40,45,30,29,58,Michael Davis
+202108240,Andrew Lee,Licenciatura en Administracion,2022,1S,10,3,99,53,50,72,55,93,89,74,7,60,37,1,40,William Walker
+201711444,Jason Baker,Biologia,2019,1S,5,1,57,98,95,13,67,42,92,14,92,62,52,17,33,James Rodriguez
+202202910,Joshua Hall,Sociologia,2020,2S,8,2,35,51,15,81,42,48,67,62,50,27,67,66,12,Andrew Lewis
+201502097,Joshua Hall,Quimica,2022,0S,31,1,25,83,33,52,67,63,20,39,100,46,32,83,17,Michael Davis
+202101415,Matthew Rodriguez,Biologia,2021,0S,19,1,12,41,73,77,82,79,36,71,17,49,76,23,78,Andrew Lewis
+202108288,Michael Johnson,Matematicas,2021,1S,6,2,21,53,36,99,76,35,38,90,11,81,1,67,73,Emma Clark
+201910981,Amy Hill,Ingenieria Informatica,2023,2S,21,3,45,69,12,52,90,85,38,98,8,56,83,36,7,Jessica Wilson
+202005625,Jane Smith,Licenciatura en Administracion,2020,1S,10,2,64,20,96,80,98,46,23,39,89,88,19,13,75,Emily Johnson
+202011865,Brian Adams,Antropologia,2023,2S,17,1,28,29,96,22,60,29,62,77,48,44,42,55,65,Emily Johnson
+202012438,Amy Hill,Contabilidad,2020,1S,29,3,62,75,15,42,54,59,88,36,8,44,74,34,52,Ava Lee
+201409126,Michael Johnson,Psicologia,2021,2S,3,2,44,9,21,10,59,25,59,59,65,30,71,58,58,John Smith
+201411192,Kevin King,Economia,2021,2S,16,3,55,76,51,78,39,17,81,79,90,26,47,95,83,Christopher Thomas
+202105199,John Doe,Arte,2023,0S,30,3,54,94,4,15,25,100,63,94,65,75,52,16,62,Sarah Martinez
+201806226,Nancy Scott,Medicina,2020,1S,23,2,93,87,37,1,42,39,30,62,77,28,57,66,79,David Thompson
+201609901,William Thomas,Ingenieria Industrial,2022,1S,10,1,60,27,59,35,10,8,3,69,87,95,1,3,89,John Smith
+202308444,Andrew Lee,Sociologia,2022,2S,30,1,72,88,48,49,67,82,72,70,39,96,44,25,92,Sarah Martinez
+202304762,David Wilson,Biologia,2019,1S,5,2,68,56,68,34,92,31,85,28,71,47,38,73,46,Mia Garcia
+201910329,Brian Adams,Economia,2020,1S,18,3,48,79,95,11,49,28,83,81,33,67,68,7,4,Christopher Thomas
+202010566,Susan Turner,Ingenieria Informatica,2022,1S,27,3,31,89,97,62,9,92,94,37,46,32,35,34,78,Mia Garcia
+201903340,Christopher Clark,Ingenieria Industrial,2020,1S,14,3,42,6,40,51,45,37,30,63,22,30,18,81,86,Ava Lee
+201610613,Susan Turner,Ingenieria Civil,2019,0S,1,3,10,43,13,57,76,43,89,47,91,73,5,6,53,Sophia Hernandez
+201612591,Kevin King,Ciencias Politicas,2022,1S,29,1,26,80,90,95,73,73,5,58,83,49,57,82,4,Sarah Martinez
+202002146,David Wilson,Antropologia,2022,1S,17,2,78,55,39,51,4,26,91,74,51,1,11,85,37,Christopher Thomas
+201511002,Jason Baker,Quimica,2022,1S,24,3,78,64,85,23,62,97,7,78,26,48,44,46,72,Emily Johnson
+202012244,Matthew Rodriguez,Educacion Fisica,2019,2S,13,3,6,18,76,95,90,73,75,16,85,97,81,40,67,William Walker
+202110741,Daniel Hernandez,Quimica,2019,0S,14,3,61,81,92,31,20,100,23,56,13,34,16,19,74,Daniel Anderson
+201610053,Linda Walker,Sociologia,2023,1S,27,1,2,41,75,34,46,4,74,88,40,20,12,84,73,Jessica Wilson
+202010149,Joshua Hall,Psicologia,2019,0S,26,3,82,60,20,88,5,76,83,97,28,2,12,59,83,William Walker
+202211778,Eric Ramirez,Economia,2023,1S,4,3,14,50,86,85,48,55,88,75,46,4,9,84,38,Jessica Wilson
+201812838,Daniel Hernandez,Derecho,2022,1S,14,3,87,92,57,27,18,10,16,66,16,84,63,35,12,Andrew Lewis
+201907518,Kevin King,Historia,2022,1S,6,3,30,94,40,77,13,18,30,19,66,23,4,14,61,Christopher Thomas
+201710980,Ryan Carter,Economia,2023,2S,16,1,56,52,44,24,8,91,38,30,32,53,16,51,73,Mia Garcia
+201705438,Eric Ramirez,Economia,2020,1S,14,2,44,18,76,86,6,23,8,11,4,67,65,96,38,Mia Garcia
+202306922,Joshua Hall,Antropologia,2019,0S,11,3,37,46,64,46,78,67,25,52,31,13,57,61,34,Christopher Thomas
+201505898,David Wilson,Contabilidad,2022,1S,24,3,75,90,54,44,9,91,79,39,83,38,100,21,19,Sophia Hernandez
+202209826,Robert Martinez,Contabilidad,2023,2S,5,1,14,94,22,85,78,11,72,52,46,8,57,92,99,Ava Lee
+202312509,Jennifer Taylor,Licenciatura en Administracion,2021,2S,18,1,96,4,5,81,51,22,58,100,92,63,77,88,57,Emma Clark
+201906511,Amy Hill,Medicina,2022,0S,23,2,68,18,54,9,49,65,9,63,44,13,37,33,37,Emma Clark
+201911607,Maria Thompson,Ingenieria Informatica,2022,2S,10,3,100,46,87,76,35,45,14,92,99,71,76,87,35,Sophia Hernandez
+202110769,Kevin King,Antropologia,2023,1S,2,3,75,10,34,89,96,29,82,12,55,82,13,21,29,Emma Clark
+202109685,William Thomas,Psicologia,2019,0S,30,1,86,77,14,81,80,70,50,76,26,87,77,57,6,Ava Lee
+202211318,Eric Ramirez,Arquitectura,2023,1S,17,1,80,66,93,70,22,2,56,79,21,18,88,35,53,Jessica Wilson
+202305697,Nancy Scott,Licenciatura en Comunicacion,2019,1S,22,2,92,97,46,16,57,83,66,12,48,46,46,63,43,John Smith
+202006284,Maria Thompson,Educacion Fisica,2022,2S,6,3,48,99,11,45,2,59,77,20,72,93,85,55,74,Emma Clark
+201912586,Christopher Clark,Economia,2020,0S,6,3,100,19,85,73,13,15,94,66,7,92,21,73,70,William Walker
+202210243,Daniel Hernandez,Licenciatura en Comunicacion,2022,2S,1,2,5,92,67,39,29,58,34,52,45,14,58,89,75,Emily Johnson
+202312487,Nancy Scott,Ingenieria Industrial,2021,2S,13,2,9,2,55,77,77,1,24,85,30,11,61,29,54,Andrew Lewis
+202011523,Matthew Rodriguez,Biologia,2022,2S,24,3,13,36,62,24,22,22,96,67,27,95,7,59,47,Mia Garcia
+202310146,Emily Davis,Licenciatura en Administracion,2021,0S,17,1,67,1,32,74,63,96,26,64,80,97,59,5,37,Christopher Thomas
+202010791,Christopher Clark,Ingenieria Civil,2023,0S,29,3,69,38,94,53,32,71,14,4,18,94,69,43,40,Jessica Wilson
+202309723,Matthew Rodriguez,Arte,2020,2S,24,2,70,60,36,42,1,70,57,66,99,42,99,74,91,Mia Garcia
+202312161,Michael Johnson,Sociologia,2019,0S,14,2,39,76,72,86,12,92,27,72,56,21,66,76,39,Matthew Moore
+201810096,Amy Hill,Ingenieria Industrial,2021,2S,26,2,96,28,14,65,92,89,49,100,90,32,8,57,39,William Walker
+201610815,Linda Walker,Quimica,2021,1S,24,1,62,18,75,85,72,65,33,75,23,26,83,83,64,Andrew Lewis
+202011064,David Wilson,Arquitectura,2019,2S,14,2,61,31,47,13,23,59,51,33,22,70,23,94,75,Matthew Moore
+202202600,Daniel Hernandez,Medicina,2023,1S,30,2,32,16,73,15,77,70,44,96,91,8,50,95,39,Matthew Moore
+202110709,Christopher Clark,Psicologia,2021,0S,22,1,33,55,100,39,75,85,42,66,79,78,36,65,38,Jessica Wilson
+202104262,Ryan Carter,Sociologia,2020,2S,23,1,25,9,8,48,9,59,90,34,50,29,42,7,98,Andrew Lewis
+202009765,John Doe,Biologia,2019,1S,9,3,36,68,1,66,75,69,73,1,41,43,22,45,49,Mia Garcia
+202204242,Nancy Scott,Historia,2022,1S,22,1,15,100,84,44,33,60,72,66,10,35,8,19,49,Olivia Taylor
+202310246,Eric Ramirez,Derecho,2021,2S,17,1,93,24,11,3,30,31,36,76,70,78,96,12,85,Matthew Moore
+202311499,Kevin King,Ciencias Politicas,2019,0S,6,1,100,81,43,53,7,53,50,11,31,34,42,8,6,Matthew Moore
+202212253,Brian Adams,Arquitectura,2019,1S,27,2,68,47,8,40,82,60,4,14,60,10,36,72,7,David Thompson
+202011402,Jason Baker,Medicina,2019,2S,20,2,61,41,81,46,40,1,12,35,10,9,20,66,87,Emily Johnson
+202301305,Robert Martinez,Arquitectura,2021,0S,25,2,89,59,18,19,74,86,90,72,86,34,79,24,71,Sophia Hernandez
+202212509,Maria Thompson,Psicologia,2019,1S,23,2,79,88,49,30,55,18,49,27,71,22,87,95,36,Sarah Martinez
+202210680,Jennifer Taylor,Biologia,2023,2S,29,2,21,71,80,95,19,58,98,79,32,44,59,71,41,Christopher Thomas
+201411361,Susan Turner,Antropologia,2019,2S,5,3,54,9,51,20,64,25,48,44,70,10,10,44,79,Ava Lee
+201705888,Patricia Young,Ciencias Politicas,2021,2S,16,2,53,29,41,66,17,11,81,82,96,66,30,97,82,Christopher Thomas
+201808978,Robert Martinez,Educacion Fisica,2019,0S,13,3,27,17,78,25,16,50,77,27,83,67,78,7,82,William Walker
+202312902,Daniel Hernandez,Licenciatura en Administracion,2021,0S,11,2,10,51,33,59,45,55,4,54,34,88,43,58,2,Mia Garcia
+201605478,Linda Walker,Licenciatura en Administracion,2020,2S,8,1,84,12,50,15,59,76,38,79,79,84,96,55,26,Emma Clark
+202310247,Daniel Hernandez,Medicina,2019,1S,4,2,94,59,3,60,4,68,31,9,10,57,11,89,27,James Rodriguez
+202211979,Robert Martinez,Medicina,2021,2S,26,2,63,67,22,40,56,93,23,50,86,21,77,9,37,Olivia Taylor
+201911970,Kevin King,Educacion Fisica,2021,2S,5,2,100,28,7,71,96,58,25,41,18,87,46,72,26,Christopher Thomas
+201403561,John Doe,Psicologia,2021,2S,14,1,23,37,94,53,95,24,64,44,28,78,66,57,7,Daniel Anderson
+201907813,Jason Baker,Antropologia,2022,1S,5,1,45,64,43,66,47,94,20,84,16,14,17,7,72,Ava Lee
+202110386,Linda Walker,Biologia,2019,0S,6,3,72,91,16,76,21,43,20,52,97,93,46,74,55,Matthew Moore
+202110834,Jessica Garcia,Historia,2020,1S,31,1,72,91,61,62,5,75,79,11,46,31,77,20,98,Emma Clark
+201712574,Maria Thompson,Medicina,2019,0S,11,3,22,39,94,15,40,51,48,69,65,98,48,45,20,Jessica Wilson
+201802602,Karen Moore,Historia,2020,2S,26,2,73,33,72,2,66,27,76,14,14,61,98,29,36,Emily Johnson
+202003708,Jessica Garcia,Licenciatura en Comunicacion,2023,1S,5,2,72,40,65,21,47,62,69,1,98,59,94,100,24,Mia Garcia
+202312311,Eric Ramirez,Medicina,2019,1S,22,1,21,1,48,43,67,82,84,15,51,45,33,7,90,Mia Garcia
+201612093,Linda Walker,Sociologia,2019,0S,28,2,77,58,73,16,57,31,26,91,37,100,22,20,29,Sarah Martinez
+202211736,Michael Johnson,Economia,2020,2S,20,2,64,93,66,24,66,38,35,14,74,17,21,73,29,James Rodriguez
+201411481,Kevin King,Ciencias Politicas,2022,1S,18,1,9,60,30,59,82,12,39,72,99,29,77,28,27,Andrew Lewis
+202002691,Jessica Garcia,Arquitectura,2023,1S,10,2,92,73,73,18,75,9,56,1,100,64,99,89,92,Sophia Hernandez
+202112407,Andrew Lee,Licenciatura en Comunicacion,2020,1S,27,2,2,20,78,37,44,67,47,77,60,75,45,32,99,Emma Clark
+202306416,Sarah Anderson,Ingenieria Informatica,2019,2S,27,1,58,33,17,75,17,19,7,26,87,98,44,69,42,David Thompson
+201510472,Brian Adams,Ingenieria Civil,2022,2S,27,1,49,45,49,79,47,1,34,27,38,23,64,41,90,John Smith
+202012593,Karen Moore,Matematicas,2021,2S,30,1,41,93,22,91,51,18,86,75,7,96,80,33,82,Daniel Anderson
+201710961,Jason Baker,Arte,2022,2S,5,3,1,33,84,80,41,62,81,52,29,76,69,38,19,Andrew Lewis
+201602668,Andrew Lee,Educacion Fisica,2022,2S,22,3,7,11,12,91,45,34,59,57,52,60,30,33,98,Mia Garcia
+201501960,Amy Hill,Ciencias Politicas,2022,2S,1,1,42,60,33,5,26,93,56,8,78,79,59,50,2,Sarah Martinez
+201711296,Kevin King,Ingenieria Civil,2020,1S,17,1,17,9,49,31,39,64,76,71,9,19,75,74,27,Matthew Moore
+201506059,William Thomas,Licenciatura en Administracion,2021,0S,27,2,29,37,58,5,35,76,4,86,19,80,64,72,14,Sarah Martinez
+201508475,Jessica Garcia,Psicologia,2022,1S,12,1,23,29,49,5,38,69,32,71,71,9,8,10,73,David Thompson
+201612720,John Doe,Sociologia,2020,2S,11,3,42,9,86,81,76,70,84,32,66,35,82,41,69,John Smith
+201812994,Maria Thompson,Historia,2020,1S,20,2,38,65,19,44,17,30,51,50,13,12,33,58,24,Christopher Thomas
+202112283,Emily Davis,Matematicas,2019,0S,25,2,27,30,30,33,17,37,77,88,33,74,18,62,36,Emily Johnson
+202110553,Jennifer Taylor,Arte,2019,1S,21,2,37,8,94,90,32,70,61,62,74,40,87,62,40,Ava Lee
+202311279,Matthew Rodriguez,Ingenieria Civil,2019,0S,15,3,74,42,53,70,18,86,13,57,79,46,75,20,52,Matthew Moore
+202212695,Michelle Green,Ingenieria Industrial,2021,2S,3,1,49,12,61,37,64,48,23,5,62,34,95,31,8,Olivia Taylor
+201907183,John Doe,Biologia,2021,0S,14,1,36,65,3,47,10,75,53,13,66,83,92,81,22,Sarah Martinez
+202206827,Joshua Hall,Ciencias Politicas,2021,1S,23,1,79,70,2,61,39,7,57,87,41,20,28,75,36,Michael Davis
+201812049,Christopher Clark,Matematicas,2020,0S,3,2,82,20,17,9,40,54,48,53,75,2,11,83,84,Christopher Thomas
+201809468,Maria Thompson,Derecho,2020,1S,3,3,19,78,74,45,16,6,9,16,50,1,79,36,26,Emma Clark
+201512503,Eric Ramirez,Historia,2020,0S,2,1,81,61,89,22,81,76,90,72,9,82,93,46,91,Sarah Martinez
+201703816,Susan Turner,Arte,2022,1S,15,1,90,88,57,74,74,65,62,40,66,86,82,7,66,Ava Lee
+201601268,Daniel Hernandez,Licenciatura en Administracion,2020,2S,25,1,63,48,50,88,59,66,33,61,73,74,30,78,91,Christopher Thomas
+201608925,Karen Moore,Ingenieria Informatica,2023,2S,12,1,41,60,61,9,15,26,35,36,49,8,5,55,67,Daniel Anderson
+202211941,Michael Johnson,Licenciatura en Administracion,2019,0S,13,2,34,48,8,93,31,87,45,79,5,36,1,48,47,Michael Davis
+202310403,Patricia Young,Matematicas,2022,0S,30,3,21,4,31,40,43,50,53,42,94,40,37,81,83,Christopher Thomas
+201510626,Emily Davis,Ingenieria Industrial,2019,0S,8,1,2,29,71,85,60,29,38,8,46,76,96,58,61,Mia Garcia
+201406575,Emily Davis,Licenciatura en Administracion,2023,0S,19,3,25,75,65,50,40,98,75,37,20,6,50,32,40,Daniel Anderson
+201403333,John Doe,Derecho,2023,1S,28,3,74,15,90,74,55,96,2,39,63,39,50,33,18,Sarah Martinez
+202302573,William Thomas,Matematicas,2023,2S,10,1,85,14,29,53,83,60,39,70,45,32,30,76,61,Emily Johnson
+202101632,Ryan Carter,Economia,2021,1S,11,1,19,98,53,12,92,100,36,70,12,78,80,62,87,Christopher Thomas
+202207702,Susan Turner,Contabilidad,2023,1S,31,1,10,1,31,88,18,51,84,84,16,83,73,93,45,Christopher Thomas
+202011914,Kevin King,Contabilidad,2023,1S,13,1,74,46,42,82,80,27,35,37,57,64,41,8,28,John Smith
+202111575,Susan Turner,Medicina,2020,2S,5,2,32,75,18,53,77,16,56,96,77,89,44,62,80,Daniel Anderson
+202301581,Eric Ramirez,Ingenieria Informatica,2023,1S,26,1,11,6,68,71,76,94,76,48,8,52,13,19,6,Christopher Thomas
+202010330,Sarah Anderson,Quimica,2022,2S,12,3,80,29,58,74,83,45,79,25,75,58,4,49,64,Emma Clark
+202310231,Karen Moore,Ciencias Politicas,2021,1S,24,2,98,13,18,26,55,39,77,36,67,46,13,96,61,Daniel Anderson
+201508587,Robert Martinez,Historia,2019,1S,10,3,19,21,34,3,84,1,12,72,100,60,21,5,18,James Rodriguez
+201612595,Christopher Clark,Economia,2022,1S,26,2,87,31,68,1,90,80,7,73,7,67,28,61,11,John Smith
+201701069,Karen Moore,Medicina,2023,2S,13,2,93,63,48,76,61,80,56,34,68,72,9,96,78,James Rodriguez
+201610922,Linda Walker,Sociologia,2021,2S,3,3,78,48,1,47,4,12,22,94,43,56,73,61,67,William Walker
+201510953,Joshua Hall,Quimica,2019,2S,25,1,43,14,69,53,11,44,6,62,49,26,43,32,1,David Thompson
+202211477,Jane Smith,Arte,2019,0S,5,1,60,98,38,1,37,1,71,98,11,47,17,76,79,Emily Johnson
+202305881,Amy Hill,Arquitectura,2023,2S,11,2,19,57,98,1,2,48,74,57,31,39,51,21,29,Jessica Wilson
+201511561,Susan Turner,Licenciatura en Administracion,2022,2S,31,2,66,16,5,43,6,53,26,50,6,43,20,59,24,Jessica Wilson
+201908035,Linda Walker,Ciencias Politicas,2022,1S,14,2,8,79,21,75,78,46,32,96,12,91,21,100,39,Mia Garcia
+202111639,Karen Moore,Educacion Fisica,2021,1S,18,1,64,19,72,73,83,6,24,20,88,100,93,78,87,Andrew Lewis
+202307645,Kevin King,Psicologia,2020,0S,1,1,94,29,64,85,55,29,55,77,54,15,50,92,67,Christopher Thomas
+202011510,Matthew Rodriguez,Arquitectura,2022,0S,27,3,93,16,66,70,21,55,27,60,74,32,83,80,93,Christopher Thomas
+202104755,Daniel Hernandez,Ingenieria Civil,2021,0S,15,3,63,97,39,79,33,64,21,1,57,39,97,21,15,Christopher Thomas
+202310794,Karen Moore,Biologia,2021,0S,16,2,97,11,11,92,23,30,28,57,71,54,29,73,30,Matthew Moore
+201911576,John Doe,Educacion Fisica,2023,1S,12,2,89,26,8,57,79,9,24,31,77,94,18,9,11,Matthew Moore
+202109455,Emily Davis,Medicina,2020,1S,12,3,85,50,42,20,81,36,44,77,87,56,54,42,42,Emily Johnson
+202112560,Amy Hill,Antropologia,2021,1S,4,1,60,74,90,81,39,81,47,43,53,42,92,20,98,Mia Garcia
+202007323,Brian Adams,Ingenieria Civil,2020,0S,27,3,95,6,34,10,83,82,5,33,57,8,19,24,45,Mia Garcia
+202111613,Linda Walker,Antropologia,2023,1S,17,1,42,27,16,37,94,79,91,96,22,36,7,64,26,Matthew Moore
+202012379,Patricia Young,Sociologia,2023,2S,9,2,35,67,94,76,31,38,12,59,79,81,56,18,69,Olivia Taylor
+202110256,Susan Turner,Educacion Fisica,2021,0S,27,1,21,92,20,79,88,66,51,46,69,62,48,15,27,Ava Lee
+201504941,Susan Turner,Psicologia,2022,2S,16,1,20,26,53,40,77,90,99,19,87,51,33,75,5,Olivia Taylor
+201412977,Daniel Hernandez,Biologia,2020,1S,17,1,35,14,8,11,45,59,50,9,14,32,51,66,92,Daniel Anderson
+201611243,Brian Adams,Sociologia,2020,2S,22,1,9,58,47,58,45,27,43,47,96,65,98,23,76,Jessica Wilson
+202306758,Eric Ramirez,Psicologia,2019,0S,30,2,44,10,50,32,68,52,78,23,55,75,97,94,51,Emily Johnson
+201706615,Jessica Garcia,Sociologia,2023,1S,31,3,33,91,26,15,21,61,54,73,46,15,65,44,52,Matthew Moore
+201512876,Daniel Hernandez,Antropologia,2019,2S,29,1,2,84,66,1,13,19,26,100,29,49,6,78,86,John Smith
+201612461,Karen Moore,Quimica,2021,1S,15,3,45,40,44,62,13,25,96,88,87,64,68,11,11,Jessica Wilson
+201505534,Laura Lewis,Historia,2022,0S,10,3,67,23,89,91,12,29,9,98,61,97,61,39,95,Michael Davis
+201508829,Jane Smith,Ingenieria Industrial,2021,2S,3,1,76,44,8,23,67,25,46,14,7,72,22,67,95,Daniel Anderson
+202307073,Andrew Lee,Ciencias Politicas,2019,2S,13,3,73,69,17,49,97,36,39,51,99,19,37,82,22,David Thompson
+202205000,Emily Davis,Medicina,2019,1S,18,1,95,58,25,29,75,11,25,62,87,77,3,100,62,Olivia Taylor
+201512505,David Wilson,Quimica,2022,0S,14,2,73,49,11,29,97,34,26,40,96,68,14,45,97,Emma Clark
+202110634,Karen Moore,Ingenieria Informatica,2023,0S,17,3,85,87,23,36,5,11,63,73,100,34,91,28,81,Olivia Taylor
+201409653,Karen Moore,Psicologia,2020,0S,12,3,71,78,21,4,70,23,3,63,91,24,15,74,38,William Walker
+202111182,Maria Thompson,Educacion Fisica,2021,1S,24,2,86,38,38,83,43,62,66,61,93,75,84,76,9,William Walker
+201610413,Sarah Anderson,Sociologia,2019,0S,5,2,85,88,11,35,14,38,35,65,83,68,69,99,18,Emily Johnson
+201807925,Andrew Lee,Arquitectura,2020,2S,31,1,53,27,94,31,8,65,87,78,53,50,44,69,88,William Walker
