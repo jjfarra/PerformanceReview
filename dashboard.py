@@ -35,6 +35,113 @@ def generate_gauge_chart(column_name, title, width, height):
     with st.container():
         st.plotly_chart(fig)
 
+def create_tabs(data, tab, info):
+
+    with tab:
+        year, period = info.split("-")
+        student_data = data[data.anio == int(year)][data.periodo == period]
+        st.markdown("""
+            <style>
+                div[data-testid="column"] h3 {
+                        text-align: center;
+            }
+        </style>
+        """, unsafe_allow_html=True)
+        id_student, full_name, id_career, id_course, time_taken = st.columns(5)
+
+        with id_student:
+            st.subheader("**MATRICULA** ", anchor=False)
+            st.write(f"{student_data['matricula'].values[0]}")
+        with full_name:
+            st.subheader("**ESTUDIANTE**", anchor=False)
+            st.write(f"{student_data['nombre_completo'].values[0]}")
+        with id_career:
+            st.subheader("**ID CARRERA**", anchor=False)
+            st.write(f"{student_data['carrera'].values[0]}")
+        with id_course:
+            st.subheader("**PARALELO**", anchor=False)
+            st.write(f"{student_data['paralelo'].values[0]}")
+        with time_taken:
+            st.subheader("**VEZ TOMADA**", anchor=False)
+            st.write(f"{student_data['vez_tomada'].values[0]}")
+        st.markdown("""
+                       <style>
+                           .e1nzilvr5 p{
+                                   text-align: center;
+    
+                       }
+                   </style>
+                   """, unsafe_allow_html=True)
+        with st.container():
+            year, period, teacher, status = st.columns(4, gap="small")
+            with year:
+                st.subheader("**AÑO**", anchor=False)
+                st.write(f"{student_data['anio'].values[0]}")
+            with period:
+                st.subheader("**PERIODO**", anchor=False)
+                st.write(f"{student_data['periodo'].values[0]}")
+            with teacher:
+                st.subheader("**PROFESOR**", anchor=False)
+                st.write(f"{student_data['profesor'].values[0]}")
+            with status:
+                st.subheader("**ESTADO**", anchor=False)
+                st.write(f"{student_data['estado'].values[0]}")
+        st.write("---")
+
+        with st.container():
+            st.subheader("Notas Obtenidas", anchor=False)
+            teorical, practice = st.columns(2)
+            with teorical:
+                generate_gauge_chart('nota_teorico', 'Nota Teórica', 450, 350)
+            with practice:
+                generate_gauge_chart('nota_practico', 'Nota Practico', 450, 350)
+        st.write("---")
+
+        with st.container():
+            st.header("Lecciones", anchor=False)
+            l_1, l_2, l_3, l_4 = st.columns(4)
+            with l_1:
+                generate_gauge_chart('leccion_1', '# 1', 200, 350)
+            with l_2:
+                generate_gauge_chart('leccion_2', '# 2', 200, 350)
+            with l_3:
+                generate_gauge_chart('leccion_3', '# 3', 200, 350)
+            with l_4:
+                generate_gauge_chart('leccion_4', '# 4', 200, 350)
+        st.write("---")
+        with st.container():
+            st.header("Talleres", anchor=False)
+            w_1, w_2, w_3, w_4 = st.columns(4)
+            with w_1:
+                generate_gauge_chart('taller_1', '# 1', 200, 350)
+            with w_2:
+                generate_gauge_chart('taller_2', '# 2', 200, 350)
+            with w_3:
+                generate_gauge_chart('taller_3', '# 3', 200, 350)
+            with w_4:
+                generate_gauge_chart('taller_4', '# 4', 200, 350)
+        st.write("---")
+        with st.container():
+            st.header("Examenes", anchor=False)
+            e_p, e_f, e_m = st.columns(3)
+            with e_p:
+                generate_gauge_chart('examen_parcial', '# 1', 200, 350)
+            with e_f:
+                generate_gauge_chart('examen_final', '# 2', 200, 350)
+            with e_m:
+                generate_gauge_chart('examen_mejoramiento', '# 3', 200, 350)
+
+            st.markdown("""
+               <style>
+                   .e1nzilvr1 {
+                           text-align: center;
+               }
+               .e1vs0wn30{
+                    align-items: center;
+               }
+                </style>
+           """, unsafe_allow_html=True)
+
 
 dashboard = st.empty()
 dashboard.title("Performance Review Programming Fundamentals", anchor=False)
@@ -69,109 +176,10 @@ if actual_file is not None:
             <span>STUDENT INFORMATION</span>
         </div>
     """, unsafe_allow_html=True)
-    with st.container():
-        st.markdown("""
-            <style>
-                div[data-testid="column"] h3 {
-                        text-align: center;
-            }
-        </style>
-        """, unsafe_allow_html=True)
-        years_period = [f"{str(row.anio)}-{row.periodo}" for idx,row in student_data.iterrows()]
-        tabs = st.tabs(years_period)
-
-        st.write("---")
-        id_student, full_name, id_career, id_course, time_taken = st.columns(5)
-
-        with id_student:
-            st.subheader("**MATRICULA** ", anchor=False)
-            st.write(f"{student_data['matricula'].values[0]}")
-        with full_name:
-            st.subheader("**ESTUDIANTE**", anchor=False)
-            st.write(f"{student_data['nombre_completo'].values[0]}")
-        with id_career:
-            st.subheader("**ID CARRERA**", anchor=False)
-            st.write(f"{student_data['carrera'].values[0]}")
-        with id_course:
-            st.subheader("**PARALELO**", anchor=False)
-            st.write(f"{student_data['paralelo'].values[0]}")
-        with time_taken:
-            st.subheader("**VEZ TOMADA**", anchor=False)
-            st.write(f"{student_data['vez_tomada'].values[0]}")
-        st.markdown("""
-                       <style>
-                           .e1nzilvr5 p{
-                                   text-align: center;
-
-                       }
-                   </style>
-                   """, unsafe_allow_html=True)
-        with st.container():
-            year,period, teacher, status = st.columns(4, gap="small")
-            with year:
-                st.subheader("**AÑO**", anchor=False)
-                st.write(f"{student_data['anio'].values[0]}")
-            with period:
-                st.subheader("**PERIODO**", anchor=False)
-                st.write(f"{student_data['periodo'].values[0]}")
-            with teacher:
-                st.subheader("**PROFESOR**", anchor=False)
-                st.write(f"{student_data['profesor'].values[0]}")
-            with status:
-                st.subheader("**ESTADO**", anchor=False)
-                st.write(f"{student_data['estado'].values[0]}")
-        st.write("---")
-
-    with st.container():
-        st.subheader("Notas Obtenidas", anchor=False)
-        teorical, practice = st.columns(2)
-        with teorical:
-            generate_gauge_chart('nota_teorico', 'Nota Teórica', 450, 350)
-        with practice:
-            generate_gauge_chart('nota_practico', 'Nota Practico', 450, 350)
-    st.write("---")
-
-    with st.container():
-        st.header("Lecciones", anchor=False)
-        l_1, l_2, l_3, l_4 = st.columns(4)
-        with l_1:
-            generate_gauge_chart('leccion_1', '# 1', 200, 350)
-        with l_2:
-            generate_gauge_chart('leccion_2', '# 2', 200, 350)
-        with l_3:
-            generate_gauge_chart('leccion_3', '# 3', 200, 350)
-        with l_4:
-            generate_gauge_chart('leccion_4', '# 4', 200, 350)
-    st.write("---")
-    with st.container():
-        st.header("Talleres", anchor=False)
-        w_1, w_2, w_3, w_4 = st.columns(4)
-        with w_1:
-            generate_gauge_chart('taller_1', '# 1', 200, 350)
-        with w_2:
-            generate_gauge_chart('taller_2', '# 2', 200, 350)
-        with w_3:
-            generate_gauge_chart('taller_3', '# 3', 200, 350)
-        with w_4:
-            generate_gauge_chart('taller_4', '# 4', 200, 350)
-    st.write("---")
-    with st.container():
-        st.header("Examenes", anchor=False)
-        e_p,e_f,e_m = st.columns(3)
-        with e_p:
-            generate_gauge_chart('examen_parcial', '# 1', 200, 350)
-        with e_f:
-            generate_gauge_chart('examen_final', '# 2', 200, 350)
-        with e_m:
-            generate_gauge_chart('examen_mejoramiento', '# 3', 200, 350)
-
-        st.markdown("""
-           <style>
-               .e1nzilvr1 {
-                       text-align: center;
-           }
-           .e1vs0wn30{
-                align-items: center;
-           }
-            </style>
-       """, unsafe_allow_html=True)
+    years_period = [f"{str(row.anio)}-{row.periodo}" for idx, row in student_data.iterrows()]
+    years_period.append("COMPARATIVA")
+    tabs = st.tabs(years_period)
+    for tab in tabs[:-1]:
+        with tab:
+            create_tabs(student_data,tab,years_period[tabs.index(tab)])
+    print(len(tabs[:-1]))
