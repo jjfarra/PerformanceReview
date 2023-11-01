@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy
 import plotly.graph_objects as go
 st.set_page_config(layout="wide")
 st.markdown("""
@@ -35,11 +34,12 @@ def generate_gauge_chart(column_name, title, width, height):
     with st.container():
         st.plotly_chart(fig)
 
-def create_tabs(data, tab, info):
 
-    with tab:
+def create_tabs(data, page, info):
+
+    with page:
         year, period = info.split("-")
-        student_data = data[data.anio == int(year)][data.periodo == period]
+        selected_student_data = data[data.anio == int(year)][data.periodo == period]
         st.markdown("""
             <style>
                 div[data-testid="column"] h3 {
@@ -51,19 +51,19 @@ def create_tabs(data, tab, info):
 
         with id_student:
             st.subheader("**MATRICULA** ", anchor=False)
-            st.write(f"{student_data['matricula'].values[0]}")
+            st.write(f"{selected_student_data['matricula'].values[0]}")
         with full_name:
             st.subheader("**ESTUDIANTE**", anchor=False)
-            st.write(f"{student_data['nombre_completo'].values[0]}")
+            st.write(f"{selected_student_data['nombre_completo'].values[0]}")
         with id_career:
             st.subheader("**ID CARRERA**", anchor=False)
-            st.write(f"{student_data['carrera'].values[0]}")
+            st.write(f"{selected_student_data['carrera'].values[0]}")
         with id_course:
             st.subheader("**PARALELO**", anchor=False)
-            st.write(f"{student_data['paralelo'].values[0]}")
+            st.write(f"{selected_student_data['paralelo'].values[0]}")
         with time_taken:
             st.subheader("**VEZ TOMADA**", anchor=False)
-            st.write(f"{student_data['vez_tomada'].values[0]}")
+            st.write(f"{selected_student_data['vez_tomada'].values[0]}")
         st.markdown("""
                        <style>
                            .e1nzilvr5 p{
@@ -76,22 +76,22 @@ def create_tabs(data, tab, info):
             year, period, teacher, status = st.columns(4, gap="small")
             with year:
                 st.subheader("**AÑO**", anchor=False)
-                st.write(f"{student_data['anio'].values[0]}")
+                st.write(f"{selected_student_data['anio'].values[0]}")
             with period:
                 st.subheader("**PERIODO**", anchor=False)
-                st.write(f"{student_data['periodo'].values[0]}")
+                st.write(f"{selected_student_data['periodo'].values[0]}")
             with teacher:
                 st.subheader("**PROFESOR**", anchor=False)
-                st.write(f"{student_data['profesor'].values[0]}")
+                st.write(f"{selected_student_data['profesor'].values[0]}")
             with status:
                 st.subheader("**ESTADO**", anchor=False)
-                st.write(f"{student_data['estado'].values[0]}")
+                st.write(f"{selected_student_data['estado'].values[0]}")
         st.write("---")
 
         with st.container():
             st.subheader("Notas Obtenidas", anchor=False)
-            teorical, practice = st.columns(2)
-            with teorical:
+            theoretical, practice = st.columns(2)
+            with theoretical:
                 generate_gauge_chart('nota_teorico', 'Nota Teórica', 450, 350)
             with practice:
                 generate_gauge_chart('nota_practico', 'Nota Practico', 450, 350)
@@ -143,6 +143,41 @@ def create_tabs(data, tab, info):
            """, unsafe_allow_html=True)
 
 
+def comparative_graphs(columns, data, title):
+    with st.container():
+        st.markdown(f"""
+                    <div font-size: 50px;>
+                    <span>{title.upper()}</span>
+                    </div>
+                    """, unsafe_allow_html=True)
+        fig = go.Figure()
+        grouped = data.groupby('anio')
+
+        for year, group in grouped:
+            fig.add_trace(
+                go.Scatter(
+                    x=columns,
+                    y=group[columns].mean(),
+                    name=str(year),
+                    mode='lines+markers'
+                )
+            )
+        name_columns = []
+        for col in columns:
+            name_columns.append(col.replace("_", " ").upper())
+        # Configura el diseño del gráfico
+        fig.update_layout(
+            title=f'Puntajes por {title.capitalize()} en Diferentes Periodos',
+            xaxis_title=title.upper(),
+            yaxis_title='Puntaje Promedio',
+            xaxis=dict(tickvals=[0, 1, 2, 3], ticktext=name_columns),
+            legend=dict(title='Año'),
+        )
+
+        # Muestra el gráfico
+        st.plotly_chart(fig)
+
+
 dashboard = st.empty()
 dashboard.title("Performance Review Programming Fundamentals", anchor=False)
 dashboard.write("Upload Actual Performance CSV",)
@@ -168,9 +203,10 @@ if actual_file is not None:
                 }
             </style>
         """, unsafe_allow_html=True)
-    student_data = dataframe[dataframe.nombre_completo == selected_student]
-    student_data["estado"] = student_data.apply(lambda x: "AP" if((x.nota_teorico*0.7)+(x.nota_practico*0.3))>60 else "RP", axis=1)
-    student_data = student_data.sort_values(by="anio",ascending=False).reset_index(drop=True)
+    student_data = dataframe[dataframe.nombre_completo == selected_student].fillna(0)
+    student_data["estado"] = student_data.apply(
+        lambda x: "AP" if((x.nota_teorico*0.7)+(x.nota_practico*0.3)) > 60 else "RP", axis=1)
+    student_data = student_data.sort_values(by="anio", ascending=False).reset_index(drop=True)
     st.markdown("""
         <div font-size: 200px;>
             <span>STUDENT INFORMATION</span>
@@ -181,5 +217,13 @@ if actual_file is not None:
     tabs = st.tabs(years_period)
     for tab in tabs[:-1]:
         with tab:
-            create_tabs(student_data,tab,years_period[tabs.index(tab)])
-    print(len(tabs[:-1]))
+            create_tabs(student_data, tab, years_period[tabs.index(tab)])
+
+    with tabs[-1]:
+        lesson_columns = ['leccion_1', 'leccion_2', 'leccion_3', 'leccion_4']
+        exam_columns = ['examen_parcial', 'examen_final', 'examen_mejoramiento']
+        workshop_columns = ['taller_1', 'taller_2', 'taller_3', 'taller_4']
+
+        comparative_graphs(lesson_columns, student_data, "Lecciones")
+        comparative_graphs(workshop_columns, student_data, "Talleres")
+        comparative_graphs(exam_columns, student_data, "Exámenes")
