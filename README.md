@@ -15,13 +15,17 @@ To run this Streamlit application locally, follow the steps below:
 
     ```bash
     cd PerformanceReview
+3. Create a virtual enviroment:
 
-3. Install the required Python packages:
+   ```bash
+    python -m venv venv
+
+4. Install the required Python packages:
 
     ```bash
     pip install -r requirements.txt
 
-4. Run the Streamlit app:
+5. Run the Streamlit app:
 
     ```bash
     streamlit run dashboard.py
