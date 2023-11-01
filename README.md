@@ -29,7 +29,7 @@ To run this Streamlit application locally, follow the steps below:
 The Streamlit app will be accessible in your web browser.
 
 ## Usage
-Upload Data Files: Users can upload CSV files for different years containing student performance data.
+Upload Data Files: Users can upload CSV files for different years containing student performance data. For this example: You can use the file called: *performance_review_fixed.csv*
 
 Select Student: Users can select a specific student from the dropdown list to view their performance.
 
