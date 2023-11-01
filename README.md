@@ -15,7 +15,7 @@ To run this Streamlit application locally, follow the steps below:
 
     ```bash
     cd PerformanceReview
-3. Create a virtual enviroment:
+3. Create a virtual environment:
 
    ```bash
     python -m venv venv
