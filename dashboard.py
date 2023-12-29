@@ -109,7 +109,7 @@ def create_tabs(data, page, info, columns):
        """, unsafe_allow_html=True)
 
 
-def comparative_graphs(columns, data, title):
+def selfcomparative_graphs(columns, data, title):
     with st.container():
         st.markdown(f"""
                     <div font-size: 50px;>
@@ -117,7 +117,7 @@ def comparative_graphs(columns, data, title):
                     </div>
                     """, unsafe_allow_html=True)
         fig = go.Figure()
-        grouped = data.groupby("anio")
+        grouped = data.groupby("year_period")
 
         for year, group in grouped:
             fig.add_trace(
@@ -143,22 +143,33 @@ def comparative_graphs(columns, data, title):
         st.plotly_chart(fig)
 
 
+def comparative_graphs(columns, data, title):
+    print("Hola")
+
 dashboard = st.empty()
 dashboard.title("Performance Review Programming Fundamentals", anchor=False)
 dashboard.write("Upload Actual Performance CSV",)
 actual_file = dashboard.file_uploader("actual_performance", ["csv"],
                                       accept_multiple_files=False, key="actual_performance", label_visibility="hidden")
-
+comparative_categories = ["Consigo mismo","Veces Tomada", "Paralelo", "Carrera", "Tipo", "Novatos", "Todos"]
 if actual_file is not None:
     dashboard.empty()
     dataframe = pd.read_csv(actual_file, sep=";")
     st.title("Programming Fundamentals Review".upper(), anchor=False)
 
+    if "selected_comparative" not in st.session_state:
+        st.session_state.selected_comparative = comparative_categories[0]
+
+    def on_select_student_change():
+        st.session_state.selected_comparative = comparative_categories[0]
+
     with st.sidebar.container():
-        selected_student = st.selectbox("Choose a student:", dataframe["estudiante"].unique())
+        selected_student = st.selectbox("Elija un estudiante:", dataframe["estudiante"].unique(),on_change=on_select_student_change)
+        selected_comparative = st.selectbox("Elija una comparativa", comparative_categories,key="selected_comparative")
+
         st.markdown("""
             <style>
-                .eczjsme4 {
+                .eczjsme4 {  
                     padding-top: 10px;
                     padding-right: 10px;
                     padding-bottom: 30px;
@@ -180,13 +191,15 @@ if actual_file is not None:
         </div>
     """, unsafe_allow_html=True)
     years_period = [f"{str(row.anio)}-{row.periodo}" for idx, row in student_data.iterrows()]
-    years_period.append("COMPARATIVA")
+    student_data["year_period"] = years_period
+    years_period.append(f"COMPARATIVA {selected_comparative.upper()}")
     tabs = st.tabs(years_period)
+    
     for tab in tabs[:-1]:
         with tab:
             create_tabs(student_data, tab, years_period[tabs.index(tab)], activities)
 
     with tabs[-1]:
-        comparative_graphs(activities["lesson_columns"], student_data, "Lecciones")
-        comparative_graphs(activities["workshop_columns"], student_data, "Talleres")
-        comparative_graphs(activities["exam_columns"], student_data, "Exámenes")
+        selfcomparative_graphs(activities["lesson_columns"], student_data, "Lecciones")
+        selfcomparative_graphs(activities["workshop_columns"], student_data, "Talleres")
+        selfcomparative_graphs(activities["exam_columns"], student_data, "Exámenes")
