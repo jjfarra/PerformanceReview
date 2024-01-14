@@ -1,6 +1,5 @@
-import streamlit as st
-import pandas as pd
-import plotly.graph_objects as go
+from functions.graph_fun import *
+
 st.set_page_config(layout="wide")
 st.markdown("""
     <style>
@@ -12,49 +11,6 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
-
-def generate_gauge_chart(data, column_name, title, width, height):
-    value = data[column_name].values[0]
-    fig = go.Figure(go.Indicator(
-        mode="gauge+number",
-        value=value,
-        domain={"x": [0, 1], "y": [0, 1]},
-        title={'text': title},
-        gauge={
-            "axis": {"range": [0, 100]},
-            "threshold": {
-                "line": {"color": "red", "width": 4},
-                "thickness": 0.75,
-                "value": value
-            }
-        }
-    ))
-    fig.update_layout(width=width, height=height)
-    with st.container():
-        st.plotly_chart(fig)
-
-
-def create_info_container(data, columns):
-    with st.container():
-        cols = st.columns(len(columns))
-        for idx in range(0, len(columns)):
-            title = "AÑO" if columns[idx] == "anio" else columns[idx].replace("_", " ").upper()
-            with cols[idx]:
-                st.subheader(f"**{title}** ", anchor=False)
-                st.write(f"{data[columns[idx]].values[0]}")
-
-
-def create_graph_per_activity(data, title, columns):
-
-    with st.container():
-        st.header(title.capitalize(), anchor=False)
-        cols = st.columns(len(columns))
-        for idx in range(0, len(columns)):
-            with cols[idx]:
-                generate_gauge_chart(data, columns[idx], f"# {idx+1}", 200, 350)
-
-    st.write("---")
 
 
 def create_tabs(data, page, info, columns):
@@ -88,14 +44,14 @@ def create_tabs(data, page, info, columns):
             st.subheader("Notas Obtenidas", anchor=False)
             theoretical, practice = st.columns(2)
             with theoretical:
-                generate_gauge_chart(selected_student_data, "nota_teorico", "Nota Teórica", 450, 350)
+                generate_gauge_chart_without_steps(selected_student_data, "nota_teorico", "Nota Teórica", 450, 350)
             with practice:
-                generate_gauge_chart(selected_student_data, "nota_practico", "Nota Practico", 450, 350)
+                generate_gauge_chart_without_steps(selected_student_data, "nota_practico", "Nota Practico", 450, 350)
         st.write("---")
 
-        create_graph_per_activity(selected_student_data, "Lecciones", columns["lesson_columns"])
-        create_graph_per_activity(selected_student_data, "Talleres", columns["workshop_columns"])
-        create_graph_per_activity(selected_student_data, "Examenes", columns["exam_columns"])
+        act_values = list(columns.values())[1:]
+        for value in range(3):
+            create_graph_per_activity_wos(selected_student_data, columns["titles"][value + 1], act_values[value])
 
         st.markdown("""
            <style>
@@ -109,49 +65,12 @@ def create_tabs(data, page, info, columns):
        """, unsafe_allow_html=True)
 
 
-def selfcomparative_graphs(columns, data, title):
-    with st.container():
-        st.markdown(f"""
-                    <div font-size: 50px;>
-                    <span>{title.upper()}</span>
-                    </div>
-                    """, unsafe_allow_html=True)
-        fig = go.Figure()
-        grouped = data.groupby("year_period")
-
-        for year, group in grouped:
-            fig.add_trace(
-                go.Scatter(
-                    x=columns,
-                    y=group[columns].mean(),
-                    name=str(year),
-                    mode="lines+markers"
-                )
-            )
-        name_columns = []
-        for col in columns:
-            name_columns.append(col.replace("_", " ").upper())
-
-        fig.update_layout(
-            title=f"Puntajes por {title.capitalize()} en Diferentes Periodos",
-            xaxis_title=title.upper(),
-            yaxis_title="Puntaje Promedio",
-            xaxis=dict(tickvals=[0, 1, 2, 3], ticktext=name_columns),
-            legend=dict(title="Año"),
-        )
-
-        st.plotly_chart(fig)
-
-
-def comparative_graphs(columns, data, title):
-    print("Hola")
-
 dashboard = st.empty()
 dashboard.title("Performance Review Programming Fundamentals", anchor=False)
 dashboard.write("Upload Actual Performance CSV",)
 actual_file = dashboard.file_uploader("actual_performance", ["csv"],
                                       accept_multiple_files=False, key="actual_performance", label_visibility="hidden")
-comparative_categories = ["Consigo mismo","Veces Tomada", "Paralelo", "Carrera", "Tipo", "Novatos", "Todos"]
+comparative_categories = ["Consigo mismo", "Veces Tomada", "Paralelo", "Carrera", "Tipo", "Novatos", "Todos"]
 if actual_file is not None:
     dashboard.empty()
     dataframe = pd.read_csv(actual_file, sep=";")
@@ -164,8 +83,9 @@ if actual_file is not None:
         st.session_state.selected_comparative = comparative_categories[0]
 
     with st.sidebar.container():
-        selected_student = st.selectbox("Elija un estudiante:", dataframe["estudiante"].unique(),on_change=on_select_student_change)
-        selected_comparative = st.selectbox("Elija una comparativa", comparative_categories,key="selected_comparative")
+        selected_student = st.selectbox("Elija un estudiante:", dataframe["estudiante"].unique(),
+                                        on_change=on_select_student_change)
+        selected_comparative = st.selectbox("Elija una comparativa", comparative_categories, key="selected_comparative")
 
         st.markdown("""
             <style>
@@ -177,13 +97,12 @@ if actual_file is not None:
                 }
             </style>
         """, unsafe_allow_html=True)
-    student_data = dataframe[dataframe.estudiante == selected_student].fillna(0)
-    student_data["estado"] = student_data.apply(
-        lambda x: "AP" if((x.nota_teorico*0.7)+(x.nota_practico*0.3)) > 60 else "RP", axis=1)
-    student_data = student_data.sort_values(by="anio", ascending=False).reset_index(drop=True)
-    activities = {"lesson_columns": ["leccion_1", "leccion_2", "leccion_3", "leccion_4"],
+    student_data = get_student_dataframe(dataframe, selected_student)
+    activities = {"notes": ["nota_teorico", "nota_practico"],
+                  "lesson_columns": ["leccion_1", "leccion_2", "leccion_3", "leccion_4"],
                   "exam_columns": ["examen_parcial", "examen_final", "examen_mejoramiento"],
-                  "workshop_columns": ["taller_1", "taller_2", "taller_3", "taller_4"]
+                  "workshop_columns": ["taller_1", "taller_2", "taller_3", "taller_4"],
+                  "titles": ["Notas", "Lecciones", "Talleres", "Exámenes"]
                   }
     st.markdown("""
         <div font-size: 200px;>
@@ -192,6 +111,7 @@ if actual_file is not None:
     """, unsafe_allow_html=True)
     years_period = [f"{str(row.anio)}-{row.periodo}" for idx, row in student_data.iterrows()]
     student_data["year_period"] = years_period
+    years_period = sorted(years_period, key=obtain_year_period, reverse=True)
     years_period.append(f"COMPARATIVA {selected_comparative.upper()}")
     tabs = st.tabs(years_period)
     
@@ -200,6 +120,4 @@ if actual_file is not None:
             create_tabs(student_data, tab, years_period[tabs.index(tab)], activities)
 
     with tabs[-1]:
-        selfcomparative_graphs(activities["lesson_columns"], student_data, "Lecciones")
-        selfcomparative_graphs(activities["workshop_columns"], student_data, "Talleres")
-        selfcomparative_graphs(activities["exam_columns"], student_data, "Exámenes")
+        comparative_graphs(dataframe, activities, student_data,  selected_comparative, comparative_categories)
