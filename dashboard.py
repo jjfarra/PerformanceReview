@@ -74,6 +74,9 @@ comparative_categories = ["Consigo mismo", "Veces Tomada", "Paralelo", "Carrera"
 if actual_file is not None:
     dashboard.empty()
     dataframe = pd.read_csv(actual_file, sep=";")
+    dataframe["year_period"] = [f"{str(row.anio)}-{row.periodo}" for idx, row in dataframe.iterrows()]
+    dataframe["course"] = [f"{row.year_period}-{str(row.paralelo)}" for idx, row in dataframe.iterrows()]
+
     st.title("Programming Fundamentals Review".upper(), anchor=False)
 
     if "selected_comparative" not in st.session_state:
@@ -109,8 +112,7 @@ if actual_file is not None:
             <span>STUDENT INFORMATION</span>
         </div>
     """, unsafe_allow_html=True)
-    years_period = [f"{str(row.anio)}-{row.periodo}" for idx, row in student_data.iterrows()]
-    student_data["year_period"] = years_period
+    years_period = student_data["year_period"].values.tolist()
     years_period = sorted(years_period, key=obtain_year_period, reverse=True)
     years_period.append(f"COMPARATIVA {selected_comparative.upper()}")
     tabs = st.tabs(years_period)

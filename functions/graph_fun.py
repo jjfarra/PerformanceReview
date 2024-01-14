@@ -24,8 +24,9 @@ def generate_gauge_chart_without_steps(data, column_name, title, width, height):
         st.plotly_chart(fig)
 
 
-def generate_gauge_chart_with_steps(data, column_name, title, times, mean, width, height):
-    compare_value = data[data.vez_tomada == times][column_name].values[0]
+def generate_gauge_chart_with_steps(data, column_name, title, c_factor, factor, mean, width, height):
+    print(f"[{c_factor}] == {factor}")
+    compare_value = data[data[c_factor] == factor][column_name].values[0]
     fig = go.Figure(go.Indicator(
         mode="gauge+number+delta",
         value=compare_value,
@@ -68,15 +69,15 @@ def create_graph_per_activity_wos(data, title, columns):
     st.write("---")
 
 
-def create_graph_per_activity_ws(data, student_selected, title, columns):
+def create_graph_per_activity_ws(data, student_selected, title, columns, c_factor, function):
     with st.container():
         st.header(title.capitalize(), anchor=False)
         cols = st.columns(len(columns))
         for idx in range(0, len(columns)):
-            times, mean_value = get_times_taken_mean(data, student_selected, columns[idx])
-            print(mean_value)
+            times, mean_value = function(data, student_selected, columns[idx])
             with cols[idx]:
-                generate_gauge_chart_with_steps(student_selected, columns[idx], f"# {idx+1}", times, mean_value,200, 350)
+                generate_gauge_chart_with_steps(student_selected, columns[idx], f"# {idx+1}",
+                                                c_factor, times, mean_value, 450, 350)
 
     st.write("---")
 
@@ -115,12 +116,12 @@ def self_comparative_graphs(columns, data, title):
         st.plotly_chart(fig)
 
 
-def times_taken_graph(activities, data, student_selected):
+def factor_compare_graph(activities, data, student_selected, c_factor, function):
 
     act_values = list(activities.values())[0:]
     for value in range(3):
         create_graph_per_activity_ws(data, student_selected,
-                                     activities["titles"][value], act_values[value])
+                                     activities["titles"][value], act_values[value], c_factor, function)
 
 
 def comparative_graphs(data, activities, selected_data, selected_comparative, comparative_categories):
@@ -129,6 +130,16 @@ def comparative_graphs(data, activities, selected_data, selected_comparative, co
         for value in range(3):
             self_comparative_graphs(act_values[value], selected_data, activities["titles"][value + 1])
     elif selected_comparative == comparative_categories[1]:
-        times_taken_graph(activities, data, selected_data)
+        factor_compare_graph(activities, data, selected_data, "vez_tomada", get_times_taken_mean)
     elif selected_comparative == comparative_categories[2]:
-        print(2)
+        factor_compare_graph(activities, data, selected_data, "course", get_same_course)
+    elif selected_comparative == comparative_categories[3]:
+        factor_compare_graph(activities, data, selected_data, "carrera", get_same_career)
+    elif selected_comparative == comparative_categories[5]:
+        actual_year = int(dt.now().year)
+        actual_month = int(dt.now().month)
+        period = obtain_period(actual_year, actual_month)
+        if period in selected_data.year_period and :
+            factor_compare_graph(activities, data, selected_data, "year_period", get_novice)
+        else:
+            st.subheader(f"**NO ES NOVATO** ", anchor=False)
