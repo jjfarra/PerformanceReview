@@ -17,7 +17,7 @@ def create_tabs(data, page, info, columns):
 
     with page:
         year, period = info.split("-")
-        selected_student_data = data[data.anio == int(year)][data.periodo == period]
+        selected_student_data = data[(data.anio == int(year)) & (data.periodo == period)]
         st.markdown("""
             <style>
                 div[data-testid="column"] h3 {
@@ -70,13 +70,12 @@ dashboard.title("Performance Review Programming Fundamentals", anchor=False)
 dashboard.write("Upload Actual Performance CSV",)
 actual_file = dashboard.file_uploader("actual_performance", ["csv"],
                                       accept_multiple_files=False, key="actual_performance", label_visibility="hidden")
-comparative_categories = ["Consigo mismo", "Veces Tomada", "Paralelo", "Carrera", "Tipo", "Novatos", "Todos"]
+comparative_categories = ["Consigo mismo", "Veces Tomada", "Paralelo",
+                          "Carrera", "Tipo", "Periodo Actual", "Novatos", "Todos"]
 if actual_file is not None:
     dashboard.empty()
-    dataframe = pd.read_csv(actual_file, sep=";")
-    dataframe["year_period"] = [f"{str(row.anio)}-{row.periodo}" for idx, row in dataframe.iterrows()]
-    dataframe["course"] = [f"{row.year_period}-{str(row.paralelo)}" for idx, row in dataframe.iterrows()]
-
+    dataframe = pd.read_csv(actual_file, sep=",")
+    dataframe = get_new_columns(dataframe)
     st.title("Programming Fundamentals Review".upper(), anchor=False)
 
     if "selected_comparative" not in st.session_state:
