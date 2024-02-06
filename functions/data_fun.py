@@ -140,3 +140,32 @@ def get_all_comparative(dataframe, student_data, criteria):
     kind, kind_value = get_same_kind_career(dataframe, student_data, criteria)
     student_value = student_data[criteria][0]
     return [times_value, course_value, career_value, period_value, novice_value, kind_value, student_value]
+
+
+def remove_empty_keys(original_dict):
+    cleaned_dict = {k: v for k, v in original_dict.items() if len(v) > 0}
+    return cleaned_dict
+
+
+def get_activities(dataframe):
+    column_dict = {
+        "notes": [],
+        "lesson_columns": [],
+        "exam_columns": [],
+        "workshop_columns": [],
+        "homework_columns": [],
+        "titles": ["Notas", "Lecciones", "Talleres", "Exámenes", "Deberes", "Lecturas"]
+    }
+
+    for column in dataframe.columns:
+        if 'nota_' in column:
+            column_dict["notes"].append(column)
+        elif 'leccion_' in column:
+            column_dict["lesson_columns"].append(column)
+        elif 'examen_' in column:
+            column_dict["exam_columns"].append(column)
+        elif 'taller_' in column:
+            column_dict["workshop_columns"].append(column)
+        elif 'deber_' in column:
+            column_dict["homework_columns"].append(column)
+    return remove_empty_keys(column_dict)

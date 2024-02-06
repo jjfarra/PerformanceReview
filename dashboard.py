@@ -100,12 +100,13 @@ if actual_file is not None:
             </style>
         """, unsafe_allow_html=True)
     student_data = get_student_dataframe(dataframe, selected_student)
-    activities = {"notes": ["nota_teorico", "nota_practico"],
-                  "lesson_columns": ["leccion_1", "leccion_2", "leccion_3", "leccion_4"],
-                  "exam_columns": ["examen_parcial", "examen_final", "examen_mejoramiento"],
-                  "workshop_columns": ["taller_1", "taller_2", "taller_3", "taller_4"],
-                  "titles": ["Notas", "Lecciones", "Talleres", "Exámenes"]
-                  }
+    # activities = {"notes": ["nota_teorico", "nota_practico"],
+    #               "lesson_columns": ["leccion_1", "leccion_2", "leccion_3", "leccion_4"],
+    #               "exam_columns": ["examen_parcial", "examen_final", "examen_mejoramiento"],
+    #               "workshop_columns": ["taller_1", "taller_2", "taller_3", "taller_4"],
+    #               "titles": ["Notas", "Lecciones", "Talleres", "Exámenes"]
+    #               }
+    activities = get_activities(student_data)
     st.markdown("""
         <div font-size: 200px;>
             <span>STUDENT INFORMATION</span>
